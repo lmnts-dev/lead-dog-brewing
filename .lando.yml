@@ -1,0 +1,7 @@
+name: lead-dog-brewing
+recipe: pantheon
+config:
+  framework: wordpress
+  site: lead-dog-brewing
+  id: 0e23d5bb-60ec-4745-a498-e385d9db8220
+  
