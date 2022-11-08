@@ -28,3 +28,20 @@ section{
 #btn--subscribe{
   text-transform: capitalize;
 }
+
+#home-slider .swiper-pagination-bullets{
+  width: 0px;
+  height: 45vh;
+}
+
+#home-slider .swiper-pagination-bullets span{
+  width: 19px;
+}
+
+.no-margin-bottom p{
+  margin-bottom: 0;
+}
+
+#btn--subscribe svg{
+  width: 37px;
+}
