@@ -15,3 +15,16 @@ section{
   padding: 96px 36px;
 }
 
+
+#keep-in-touch .elementor-form-fields-wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#keep-in-touch .elementor-form-fields-wrapper div{
+  margin-right: 30px;
+}
+
+#btn--subscribe{
+  text-transform: capitalize;
+}
