@@ -45,3 +45,7 @@ section{
 #btn--subscribe svg{
   width: 37px;
 }
+
+#comments{
+  display: none!important;
+}
