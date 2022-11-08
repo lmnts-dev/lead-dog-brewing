@@ -29,6 +29,8 @@ section{
   text-transform: capitalize;
 }
 
+/*HOME SLIDER*/
+
 #home-slider .swiper-pagination-bullets{
   width: 0px;
   height: 45vh;
@@ -36,6 +38,11 @@ section{
 
 #home-slider .swiper-pagination-bullets span{
   width: 19px;
+}
+
+#home-slider .n2-bullet{
+  padding: 15px!important;
+  margin-bottom: 26px!important;
 }
 
 .no-margin-bottom p{
