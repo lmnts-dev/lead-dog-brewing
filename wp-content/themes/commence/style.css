@@ -51,3 +51,21 @@ section{
 #comments{
   display: none!important;
 }
+
+#beer-gallery .elementor-image-carousel-wrapper{
+  position: relative;
+}
+
+#beer-gallery .elementor-swiper-button-prev{
+  bottom: 0px;
+  top: 95%;
+  position: absolute;
+  right: 5%;
+}
+
+#beer-gallery .elementor-swiper-button-next{
+    bottom: 0px;
+    top: 95%;
+    position: absolute;
+    right: 0;
+}
