@@ -60,7 +60,7 @@ function create_artists_cpt()
     'show_in_rest' => true,
     'publicly_queryable' => true,
     'capability_type' => 'post',
-    'taxonomies' => array('post_tag'),
+    'taxonomies' => array('post_tag', 'category'),
   );
   register_post_type('artist', $args);
 }
@@ -118,7 +118,7 @@ function create_beers_cpt()
     'show_in_rest' => true,
     'publicly_queryable' => true,
     'capability_type' => 'post',
-    'taxonomies' => array('post_tag'),
+    'taxonomies' => array('post_tag', 'category'),
   );
   register_post_type('beer', $args);
 }

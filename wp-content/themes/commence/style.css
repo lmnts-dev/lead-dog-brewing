@@ -61,6 +61,7 @@ section{
   top: 95%;
   position: absolute;
   right: 5%;
+  left: auto!important;
 }
 
 #beer-gallery .elementor-swiper-button-next{
