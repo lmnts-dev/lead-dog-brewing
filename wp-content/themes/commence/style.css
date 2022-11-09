@@ -51,18 +51,3 @@ section{
 #comments{
   display: none!important;
 }
-
-#btn--simple{
-  padding: 10px, 8px, 10px, 8px;
-  color: #F8F8F8;
-  font-weight: 500;
-  font-size: 24px;
-  font-family: 'roc-grotesk', sans-serif;
-  background: none;
-}
-
-#btn--simple:hover{
-  color: #F8F8F8;
-  border-bottom: 1px solid #F8F8F8;
-  transition: border-width 0.6s linear;
-}
