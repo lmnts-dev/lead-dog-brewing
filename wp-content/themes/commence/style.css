@@ -70,3 +70,7 @@ section{
     position: absolute;
     right: 0;
 }
+
+#beer-loop .e-loop-item section{
+  padding: 0;
+}
