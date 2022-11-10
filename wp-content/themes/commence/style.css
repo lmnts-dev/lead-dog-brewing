@@ -71,6 +71,6 @@ section{
     right: 0;
 }
 
-#beer-loop section{
+.beer-loop section{
   padding: 0!important;
 }
