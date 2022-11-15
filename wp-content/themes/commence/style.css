@@ -79,7 +79,7 @@ section{
   margin-bottom: 5px;
 }
 
-.artist-single .featured-img{
+.artist-single .featured-img img{
   height: 332px;
   object-fit: cover;
 }
