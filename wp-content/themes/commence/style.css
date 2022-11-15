@@ -165,8 +165,8 @@ section{
 }
 
 .tribe-events-c-view-selector__list-item-text{
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 24px!important;
+  font-weight: 500!important;
   font-family: 'roc-grotesk'!important;
 }
 
@@ -180,7 +180,7 @@ section{
 
 .tribe-events-c-search__button{
   border-radius: 0!important;
-  font-size: 24px;
+  font-size: 24px!important;
   font-family: 'roc-grotesk'!important;
 }
 
