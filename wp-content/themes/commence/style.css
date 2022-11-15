@@ -83,4 +83,13 @@ section{
   height: 332px;
   object-fit: cover;
 }
+
+.artist-single--featured div{
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-single--featured div .elementor-column{
+  width: 100%;
+}
  
