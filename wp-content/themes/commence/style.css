@@ -92,4 +92,20 @@ section{
 .artist-single--featured div .elementor-column{
   width: 100%;
 }
- 
+
+.artist-single--featured .name{
+  margin-bottom: 5px;
+}
+
+.artist-single--featured .location{
+  margin-bottom: 37px;
+}
+
+.artist-single--featured .content div:before{
+  content: "";
+  position: absolute;
+  left: 20px;
+  border: 1px solid #000;
+  width: 1px;
+  height: 100%;
+}
