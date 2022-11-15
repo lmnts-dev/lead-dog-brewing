@@ -116,6 +116,11 @@ section{
   background-color: transparent!important;
 }
 
+.tribe-events-c-top-bar__datepicker-button{
+  font-size: 24px;
+  font-family: 'roc-grotesk'!important;
+}
+
 .tribe-events-c-subscribe-dropdown__container{
   display: none!important;
 }
@@ -124,7 +129,7 @@ section{
   border-right: 1.5px solid #DB4233!important;
 }
 
-.tribe-events-calendar-list__event-date-tag-weekday{
+.tribe-events-calendar-list__event-date-tag-weekday, .tribe-events-c-small-cta__price{
   font-size: 18px!important;
   font-weight: 500!important;
   color: #1C241D80!important;
@@ -149,10 +154,20 @@ section{
   font-family: 'roc-grotesk'!important;
 }
 
+.tribe-events-calendar-list__event-description p{
+  font-weight: 500!important;
+}
+
 .tribe-events-calendar-list__event-title{
   font-size: 40px;
   font-weight: 500;
   font-family: "noort", Sans-serif!important;
+}
+
+.tribe-events-c-view-selector__list-item-text{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'roc-grotesk'!important;
 }
 
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector--tabs .tribe-events-c-view-selector__list-item--active .tribe-events-c-view-selector__list-item-link:after{
@@ -165,6 +180,8 @@ section{
 
 .tribe-events-c-search__button{
   border-radius: 0!important;
+  font-size: 24px;
+  font-family: 'roc-grotesk'!important;
 }
 
 .tribe-events-calendar-list__event-featured-image{
@@ -172,4 +189,12 @@ section{
   height: 304px;
   object-fit: cover;
   float: right;
+}
+
+.tribe-events .tribe-events-c-nav__list-item--prev{
+  justify-content: flex-end;
+}
+
+.tribe-events .tribe-events-c-nav__list-item--next {
+    justify-content: flex-start;
 }
