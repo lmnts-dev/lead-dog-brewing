@@ -78,3 +78,9 @@ section{
 .beer-single .elementor-widget-heading{
   margin-bottom: 5px;
 }
+
+.artist-single .featured-img{
+  height: 332px;
+  object-fit: cover;
+}
+ 
