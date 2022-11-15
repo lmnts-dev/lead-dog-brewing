@@ -101,11 +101,11 @@ section{
   margin-bottom: 37px;
 }
 
-.artist-single--featured .content div:first-of-type:before{
+.artist-single--featured .content .elementor-widget-wrap:before{
   content: "";
   position: absolute;
   left: 65px;
-  border: 1px solid #000;
+  border: 1.5px solid #000;
   height: 50%;
   top: 35%;
 }
