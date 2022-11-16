@@ -199,3 +199,16 @@ section{
 .tribe-events .tribe-events-c-nav__list-item--next {
     justify-content: flex-start;
 }
+
+/*FORMS*/
+.frm_form_title{
+  line-height: 67.2px;
+}
+
+#contact-forms-container .theplus-tabs-content-wrapper{
+  border-left: 1px solid #DB4233;
+}
+
+#contact-forms-container .elementor-tab-title{
+  padding: 0!important;
+}
