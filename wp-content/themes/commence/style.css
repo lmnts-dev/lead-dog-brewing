@@ -202,13 +202,22 @@ section{
 
 /*FORMS*/
 .frm_form_title{
-  line-height: 67.2px;
+  line-height: 67.2px!important;
 }
 
 #contact-forms-container .theplus-tabs-content-wrapper{
   border-left: 1px solid #DB4233;
 }
 
-#contact-forms-container .elementor-tab-title{
-  padding: 0!important;
+#contact-forms-container .plus-tab-header.active{
+  border-left: 1px solid #DB4233;
+  padding-left: 17px;
+}
+
+#contact-forms-container a{
+  color: #F4EBDA!important;
+}
+
+#contact-forms-container .theplus-tabs-nav-wrapper{
+  align-items: baseline!important;
 }
