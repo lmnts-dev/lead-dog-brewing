@@ -221,3 +221,9 @@ section{
 #contact-forms-container .theplus-tabs-nav-wrapper{
   align-items: baseline!important;
 }
+
+#contact-forms-container .frm_section_spacing{
+  margin-bottom: 14px!important;
+  text-transform: uppercase!important;
+  color: #F4EBDA!important;
+}
