@@ -306,13 +306,15 @@ section{
   height: fit-content!important;
 }
 
-#upcoming-events-carousel .ect-carousel-title h4{
+#upcoming-events-carousel .ect-carousel-title h4 a{
   font-family: "roc-grotesk", Sans-serif!important;
 }
 
 #upcoming-events-carousel .ect-carousel-description .ect-event-content p{
   margin-bottom: 24px;
   font-family: "roc-grotesk", Sans-serif!important;
+  font-size: 18px;
+  color: #00445e, impor !important;;
 }
 
 #upcoming-events-carousel .ect-carousel-venue{
@@ -326,21 +328,30 @@ section{
   font-size: 18px;
 }
 
-/* #upcoming-events-carousel .ect-carousel-venue .ect-icon{
+#upcoming-events-carousel .ect-carousel-venue .ect-icon{
   display: none!important;
-} */
-
-/* #upcoming-events-carousel .ect-icon-right:before{
-  content: '>'!important;
 }
 
+ #upcoming-events-carousel .ect-icon-right:before{
+  content: "";
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  height: 12px;
+  width: 12px;
+  border-top: 1px solid #112213;
+  border-right: 1px solid #112213;
+  transform: rotate(45deg) translateY(-50%);
+}
+
+/*
 #upcoming-events-carousel .ect-icon-left:before{
   content: '<'!important;
 } */
 
 #upcoming-events-carousel .ect-icon-left, #upcoming-events-carousel .ect-icon-right{
-  background: transparent;
-  box-shadow: none;
+  background: transparent!important;
+  box-shadow: none!important;
 }
 
 #upcoming-events-carousel #ect-carousel-wrapper .slick-arrow{
