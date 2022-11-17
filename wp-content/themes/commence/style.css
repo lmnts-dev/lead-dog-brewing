@@ -240,7 +240,8 @@ section{
   grid-template-columns: repeat(2,1fr)!important;
   background: transparent!important;
   box-shadow: none!important;
-  border: none!important
+  border: none!important;
+  grid-auto-rows: minmax(min-content, max-content)!important;
 }
 
 #upcoming-events-carousel .ect-carousel{
@@ -288,7 +289,6 @@ section{
 }
 
 #upcoming-events-carousel .ect-carousel-title h4{
-  margin-top: 27px;
   margin-bottom: 17px;
 }
 
@@ -303,6 +303,7 @@ section{
   font-size: 18px;
   font-weight: 500;
   border-bottom: 1px solid black;
+  height: fit-content!important;
 }
 
 #upcoming-events-carousel .ect-carousel-description .ect-event-content p{
@@ -319,11 +320,11 @@ section{
 }
 
 #upcoming-events-carousel .ect-icon-right:before{
-  content: '\e87d'!important;
+  content: '>'!important;
 }
 
 #upcoming-events-carousel .ect-icon-left:before{
-  content: '\e87e'!important;
+  content: '<'!important;
 }
 
 #upcoming-events-carousel .ect-icon-left, #upcoming-events-carousel .ect-icon-right{
@@ -335,10 +336,18 @@ section{
   box-shadow: none;
 }
 
+#upcoming-events-carousel .tribe-postal-code, #upcoming-events-carousel .tribe-country-name{
+  display: none;
+}
+
 #upcoming-events-carousel .ect-carousel-date{
   order: 5;
-  font-size: 18px;
+  font-size: 18px!important;
   padding-top: 8px;
+}
+
+#upcoming-events-carousel .ect-carousel-date .ev-time{
+  font-size: 18px!important;
 }
 
 #upcoming-events-carousel .ect-carousel-date .ect-icon{
