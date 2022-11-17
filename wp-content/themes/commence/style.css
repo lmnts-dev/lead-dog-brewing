@@ -306,8 +306,13 @@ section{
   height: fit-content!important;
 }
 
+#upcoming-events-carousel .ect-carousel-title h4{
+  font-family: "roc-grotesk", Sans-serif!important;
+}
+
 #upcoming-events-carousel .ect-carousel-description .ect-event-content p{
   margin-bottom: 24px;
+  font-family: "roc-grotesk", Sans-serif!important;
 }
 
 #upcoming-events-carousel .ect-carousel-venue{
@@ -321,9 +326,9 @@ section{
   font-size: 18px;
 }
 
-#upcoming-events-carousel .ect-carousel-venue .ect-icon{
+/* #upcoming-events-carousel .ect-carousel-venue .ect-icon{
   display: none!important;
-}
+} */
 
 /* #upcoming-events-carousel .ect-icon-right:before{
   content: '>'!important;
