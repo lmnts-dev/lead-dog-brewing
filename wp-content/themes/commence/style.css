@@ -79,6 +79,29 @@ section{
   margin-bottom: 5px;
 }
 
+#artist-slider .owl-dots{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 64px;
+  top: 60%;
+}
+
+#artist-slider .owl-dots button{
+  width: 14px;
+  height: 19px;
+  margin-bottom: 26.5px;
+}
+
+#artist-slider .owl-dots .owl-dot{
+  background-color: #F4EBDA;
+  opacity: 40%;
+}
+
+#artist-slider .owl-dots .owl-dot.active{
+  background-color: #F4EBDA!important;
+}
+
 .artist-single .featured-img img{
   height: 332px;
   object-fit: cover;
