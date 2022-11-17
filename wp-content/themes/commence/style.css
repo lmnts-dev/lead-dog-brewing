@@ -250,13 +250,13 @@ section{
 #upcoming-events-carousel .ect-carousel .ctl-slick-prev{
   position: absolute;
   top: 0;
-  left: 90%;
+  left: 90%!important;
 }
 
 #upcoming-events-carousel .ect-carousel .ctl-slick-next{
  position: absolute;
   top: 0;
-  left: 93%;
+  left: 93%!important;
 }
 
 #upcoming-events-carousel .ect-carousel-cost{
@@ -316,6 +316,14 @@ section{
 
 #upcoming-events-carousel .ect-carousel-venue .ect-icon{
   display: none!important;
+}
+
+#upcoming-events-carousel .ect-carousel-venue .ect-icon-right:before{
+  content: '\e87d'!important;
+}
+
+#upcoming-events-carousel .ect-carousel-venue .ect-icon-left:before{
+  content: '\e87e'!important;
 }
 
 #upcoming-events-carousel .ect-carousel-date{
