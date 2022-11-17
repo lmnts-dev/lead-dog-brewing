@@ -234,6 +234,11 @@ section{
   font-size: 18px!Important;
 }
 
+#contact-info{
+  position: absolute;
+  top: 250px;
+}
+
 /*UPCOMING EVENTS CAROUSEL*/
 #upcoming-events-carousel .ect-carousel-event-area{
   display: grid!important;
