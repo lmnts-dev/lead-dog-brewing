@@ -318,12 +318,21 @@ section{
   display: none!important;
 }
 
-#upcoming-events-carousel .ect-carousel-venue .ect-icon-right:before{
+#upcoming-events-carousel .ect-icon-right:before{
   content: '\e87d'!important;
 }
 
-#upcoming-events-carousel .ect-carousel-venue .ect-icon-left:before{
+#upcoming-events-carousel .ect-icon-left:before{
   content: '\e87e'!important;
+}
+
+#upcoming-events-carousel .ect-icon-left, #upcoming-events-carousel .ect-icon-right{
+  background: transparent;
+  box-shadow: none;
+}
+
+#upcoming-events-carousel #ect-carousel-wrapper .slick-arrow{
+  box-shadow: none;
 }
 
 #upcoming-events-carousel .ect-carousel-date{
