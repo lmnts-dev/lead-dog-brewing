@@ -315,17 +315,23 @@ section{
   padding-top: 8px;
 }
 
+#upcoming-events-carousel .ect-address{
+  font-weight: 500;
+  font-family: "roc-grotesk", Sans-serif;
+  font-size: 18px;
+}
+
 #upcoming-events-carousel .ect-carousel-venue .ect-icon{
   display: none!important;
 }
 
-#upcoming-events-carousel .ect-icon-right:before{
+/* #upcoming-events-carousel .ect-icon-right:before{
   content: '>'!important;
 }
 
 #upcoming-events-carousel .ect-icon-left:before{
   content: '<'!important;
-}
+} */
 
 #upcoming-events-carousel .ect-icon-left, #upcoming-events-carousel .ect-icon-right{
   background: transparent;
