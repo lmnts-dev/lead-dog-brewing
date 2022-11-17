@@ -335,25 +335,25 @@ section{
  #upcoming-events-carousel .ect-icon-right:before{
   content: "";
   position: absolute;
-  right: 2px;
+  right: 0;
   top: 50%;
   height: 12px;
   width: 12px;
   border-top: 1px solid #112213;
   border-right: 1px solid #112213;
-  transform: rotate(45deg) translateY(-50%);
+  transform: rotate(45deg);
 }
 
 #upcoming-events-carousel .ect-icon-left:before{
   content: "";
   position: absolute;
-  right: 2px;
+  right: 0;
   top: 50%;
   height: 12px;
   width: 12px;
   border-top: 1px solid #112213;
   border-right: 1px solid #112213;
-  transform: rotate(225deg) translateY(-50%);
+  transform: rotate(225deg);
 } 
 
 #upcoming-events-carousel .ect-icon-left, #upcoming-events-carousel .ect-icon-right{
