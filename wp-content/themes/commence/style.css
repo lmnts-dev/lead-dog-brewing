@@ -99,7 +99,7 @@ section{
 }
 
 #artist-slider .owl-dots .owl-dot.active{
-  background-color: #F4EBDA!important;
+  opacity: 100%!important;
 }
 
 .artist-single .featured-img img{
@@ -423,4 +423,21 @@ section{
 
 #faqs .eael-accordion-header{
   border: none;
+}
+
+/*AGE GATE*/
+.age-gate{
+  background: #F49F2D;
+  max-width: 1200px;
+  max-height: 600px;
+  height: 600px;
+}
+
+.age-gate__form{
+  align-items: baseline;
+  padding: 225px 150px;
+}
+
+.age-gate__buttons{
+  justify-content: baseline;
 }
