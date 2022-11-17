@@ -243,6 +243,26 @@ section{
   border: none!important
 }
 
+#upcoming-events-carousel .ect-carousel{
+  position: relative;
+}
+
+#upcoming-events-carousel .ect-carousel .ctl-slick-prev{
+  position: absolute;
+  top: 0;
+  left: 90%;
+}
+
+#upcoming-events-carousel .ect-carousel .ctl-slick-next{
+ position: absolute;
+  top: 0;
+  left: 93%;
+}
+
+#upcoming-events-carousel .ect-carousel-cost{
+  display: none;
+}
+
 #upcoming-events-carousel .ect-carousel-image{
   order: 1;
   grid-column: 1 / -1;
@@ -282,7 +302,7 @@ section{
   font-family: 'roc-grotesk'!important;
   font-size: 18px;
   font-weight: 500;
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 #upcoming-events-carousel .ect-carousel-description .ect-event-content p{
