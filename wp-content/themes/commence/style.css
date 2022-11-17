@@ -450,6 +450,10 @@ section{
 
 .age-gate__headline{
   font-size: 60px!important;
+  text-align: start!important;
+  line-height: 67.2px!important;
+  max-width: 500px!important;
+  margin-top: 50px!important;
 }
 
 .age-gate__additional-information img:first-of-type{
