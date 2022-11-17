@@ -226,4 +226,54 @@ section{
   margin-bottom: 14px!important;
   text-transform: uppercase!important;
   color: #F4EBDA!important;
+  font-family: 'roc-grotesk'!important;
+}
+
+#contact-forms-container #frm_add_form_row, #contact-forms-container #frm_remove_form_row{
+  padding: 10px 20px!important;
+  font-size: 18px!Important;
+}
+
+/*UPCOMING EVENTS CAROUSEL*/
+#upcoming-events-carousel .ect-carousel-event-area{
+  display: grid!important;
+  grid-template-columns: repeat(2,1fr)!important;
+  background: transparent!important;
+  box-shadow: none!important;
+  border: none!important
+}
+
+#upcoming-events-carousel .ect-carousel-image{
+  order: 1;
+  grid-column: 1 / -1;
+}
+
+#upcoming-events-carousel .ect-carousel-title{
+  order: 2;
+  grid-column: 1 / -1;
+}
+
+#upcoming-events-carousel .ect-carousel-title h4:before{
+  content: none!important;
+}
+
+#upcoming-events-carousel .ect-carousel-description{
+  order: 3;
+  grid-column: 1 / -1;
+}
+
+#upcoming-events-carousel .ect-carousel-venue{
+  order: 4;
+}
+
+#upcoming-events-carousel .ect-carousel-venue .ect-icon{
+  display: none!important;
+}
+
+#upcoming-events-carousel .ect-carousel-date{
+  order: 5;
+}
+
+#upcoming-events-carousel .ect-carousel-date .ect-icon{
+  display: none!important;
 }
