@@ -390,3 +390,9 @@ section{
 #upcoming-events-carousel .ect-google{
   display: none!important;
 }
+
+/*FAQS*/
+
+#faqs .eael-accordion-header{
+  border: none;
+}
