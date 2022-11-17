@@ -251,6 +251,9 @@ section{
 #upcoming-events-carousel .ect-carousel-title{
   order: 2;
   grid-column: 1 / -1;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'roc-grotesk'!important;
 }
 
 #upcoming-events-carousel .ect-carousel-title h4:before{
@@ -260,6 +263,10 @@ section{
 #upcoming-events-carousel .ect-carousel-description{
   order: 3;
   grid-column: 1 / -1;
+  font-family: 'roc-grotesk'!important;
+  font-size: 18px;
+  font-weight: 500;
+    border-bottom: 1px solid black;
 }
 
 #upcoming-events-carousel .ect-carousel-venue{
@@ -272,8 +279,17 @@ section{
 
 #upcoming-events-carousel .ect-carousel-date{
   order: 5;
+  font-size: 18px;
 }
 
 #upcoming-events-carousel .ect-carousel-date .ect-icon{
+  display: none!important;
+}
+
+#upcoming-events-carousel .ect-carousel-readmore{
+  display: none!important;
+}
+
+#upcoming-events-carousel .ect-google{
   display: none!important;
 }
