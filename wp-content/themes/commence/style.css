@@ -434,10 +434,20 @@ section{
 }
 
 .age-gate__form{
-  align-items: baseline;
+  align-items: flex-start;
   padding: 225px 150px;
 }
 
 .age-gate__buttons{
-  justify-content: baseline;
+  justify-content: flex-start;
+}
+
+.age-gate__heading img{
+  width: 228px;
+  position: absolute;
+  top: 0;
+}
+
+.age-gate__headline{
+  font-size: 60px;
 }
