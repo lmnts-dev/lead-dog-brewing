@@ -472,3 +472,37 @@ section{
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+
+/*PASSWORD PROTECT*/
+.ppw-post-password-container .ppw-ppf-headline{
+  justify-content: center;
+  font-family: "noort", Sans-serif!important;
+}
+
+ .ppw-post-password-container .ppw-ppf-field-container{
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .ppw-post-password-container .ppw-ppf-desc{
+    font-family: 'roc-grotesk'!important;
+    font-size: 16px;
+ }
+
+ .ppw-post-password-container .ppw-pwd-label{
+    width: 45%!important;
+    max-width: 666px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'roc-grotesk'!important;
+    color: #F2E9D8;
+ }
+
+  .ppw-post-password-container .ppw-pwd-label input{
+    margin-top: 6px;
+  }
+
+ .ppw-post-password-container .ppw-pwd-submit-btn{
+  max-width: 173px!important;
+  margin-top: 37px;
+ }
