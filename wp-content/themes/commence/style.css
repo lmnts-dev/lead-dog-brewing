@@ -449,5 +449,22 @@ section{
 }
 
 .age-gate__headline{
-  font-size: 60px;
+  font-size: 60px!important;
+}
+
+.age-gate__additional-information img:first-of-type{
+  width: 294px;
+  position: absolute;
+  right: 160px;
+  bottom: 51px;
+}
+
+.age-gate__additional-information img:last-of-type{
+  position: absolute;
+  bottom: 55px;
+  left: 0;
+  width: 1074px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
