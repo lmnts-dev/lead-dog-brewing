@@ -180,3 +180,61 @@ function create_merch_cpt()
   );
   register_post_type('merch', $args);
 }
+
+// Register Custom Post Type Distributor Portal Content
+// Post Type Key: distributor portal content
+add_action('init', 'create_portal_content_cpt', 0);
+function create_portal_content_cpt()
+{
+  $labels = array(
+    'name' => __('Portal Content', 'Post Type General Name', 'textdomain'),
+    'singular_name' => __('Portal Content', 'Post Type Singular Name', 'textdomain'),
+    'menu_name' => __('Portal Content', 'textdomain'),
+    'name_admin_bar' => __('Portal Content', 'textdomain'),
+    'archives' => __('Portal Content Archives', 'textdomain'),
+    'attributes' => __('Portal Content Attributes', 'textdomain'),
+    'parent_item_colon' => __('Parent Portal Content:', 'textdomain'),
+    'all_items' => __('All Portal Content', 'textdomain'),
+    'add_new_item' => __('Add New Portal Content Item', 'textdomain'),
+    'add_new' => __('Add New', 'textdomain'),
+    'new_item' => __('New Portal Content Item', 'textdomain'),
+    'edit_item' => __('Edit Portal Content Item', 'textdomain'),
+    'update_item' => __('Update Portal Content Item', 'textdomain'),
+    'view_item' => __('View Portal Content Item', 'textdomain'),
+    'view_items' => __('View Portal Content', 'textdomain'),
+    'search_items' => __('Search Portal Content', 'textdomain'),
+    'not_found' => __('Not found', 'textdomain'),
+    'not_found_in_trash' => __('Not found in Trash', 'textdomain'),
+    'featured_image' => __('Featured Image', 'textdomain'),
+    'set_featured_image' => __('Set featured image', 'textdomain'),
+    'remove_featured_image' => __('Remove featured image', 'textdomain'),
+    'use_featured_image' => __('Use as featured image', 'textdomain'),
+    'insert_into_item' => __('Insert into Portal Content Item', 'textdomain'),
+    'uploaded_to_this_item' => __('Uploaded to this Portal Content Item', 'textdomain'),
+    'items_list' => __('Portal Content list', 'textdomain'),
+    'items_list_navigation' => __('Portal Content list navigation', 'textdomain'),
+    'filter_items_list' => __('Filter Portal Content list', 'textdomain'),
+  );
+  $args = array(
+    'label' => __('Portal Content', 'textdomain'),
+    'description' => __('', 'textdomain'),
+    'labels' => $labels,
+    'menu_icon' => 'dashicons-media-archive',
+    'supports' => array('title', 'excerpt', 'thumbnail'),
+    'public' => true,
+    'show_ui' => true,
+    'show_in_menu' => true,
+    'menu_position' => 4,
+    'show_in_admin_bar' => true,
+    'show_in_nav_menus' => true,
+    'can_export' => true,
+    'has_archive' => false,
+    'hierarchical' => false,
+    'exclude_from_search' => false,
+    'show_in_rest' => true,
+    'publicly_queryable' => true,
+    'capability_type' => 'post',
+    'taxonomies' => array('post_tag', 'category'),
+  );
+  register_post_type('portal_content', $args);
+}
