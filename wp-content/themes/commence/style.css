@@ -500,6 +500,10 @@ section{
 
   .ppw-post-password-container .ppw-pwd-label input{
     margin-top: 6px;
+    background-color: #021503!important;
+    border-color: #424D43!important;
+    color: rgb(244, 235, 218)!important;
+    font-size: 18px!important;
   }
 
  .ppw-post-password-container .ppw-pwd-submit-btn{
