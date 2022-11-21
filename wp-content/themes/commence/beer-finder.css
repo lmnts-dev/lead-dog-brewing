@@ -1,0 +1,29 @@
+#finder_body{
+  background-color: #021504!important;
+ }
+
+ #finder{
+  display: flex!important;
+  justify-content: center!important;
+ }
+
+ #finder select{
+  background-color: #112213!important;
+  color: #F2E9D8!important;
+  border-radius: 0!important;
+  border-color: #424D43!important;
+  height: 40px!important;
+ }
+
+ #storeType, #finder_BFBRCD{
+  width: 400px;
+ }
+
+ #finder_body .submitBtn{
+  background-color: #CD753C!important;
+  color: #F4EBDA!important;
+ }
+
+ #finder_form{
+  border: none;
+ }
