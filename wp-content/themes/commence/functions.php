@@ -238,3 +238,12 @@ function create_portal_content_cpt()
   );
   register_post_type('portal_content', $args);
 }
+
+add_filter( 'allowed_http_origins', 'mytheme_add_origins' );
+/**
+ * Add origins for CORS
+ */
+function mytheme_add_origins( $origins ) {
+    $origins[] = 'https://raw.githubusercontent.com/';
+    return $origins;
+}
