@@ -245,6 +245,15 @@ section{
 #tribe-events-content section{
   padding-top: 0!important;
 }
+
+.tribe-events-back a{
+  color: #112213!important;
+  font-size: 24px;
+  font-family: 'roc-grotesk'!important;
+  text-transform: uppercase;
+  padding-bottom: 32px;
+}
+
 /*FORMS*/
 .frm_form_title{
   line-height: 67.2px!important;
