@@ -269,6 +269,18 @@ section{
   font-weight: 500!important;
 }
 
+.tribe-events-start-date-label, .tribe-events-start-time-label{
+
+}
+
+.tribe-events-back, .tribe-events-single-event-title{
+  margin-bottom:32px!important;
+}
+
+.tribe-events-schedule h2{
+  font-size: 18px!important;
+}
+
 /*FORMS*/
 .frm_form_title{
   line-height: 67.2px!important;
