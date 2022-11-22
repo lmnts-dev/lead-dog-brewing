@@ -155,8 +155,12 @@ section{
   font-family: 'roc-grotesk'!important;
 }
 
-#upcoming-events .tribe-events-c-subscribe-dropdown__container{
+.tribe-events-view--list .tribe-events-c-subscribe-dropdown__container{
   display: none!important;
+}
+
+.tribe-events-c-nav__next-label{
+  text-transform: capitalize!important;
 }
 
 .tribe-events-calendar-list__event-date-tag{
