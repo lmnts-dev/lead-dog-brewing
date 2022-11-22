@@ -338,7 +338,7 @@ section{
   position: relative;
 }
 
-.tribe-meta-value a:after{
+.tribe-meta-value a::after{
   content: "Eventbrite";
   position: absolute;
   width:100%;
