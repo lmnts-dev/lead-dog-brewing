@@ -256,11 +256,16 @@ section{
 }
 
 .tribe-events-schedule{
-  margin-bottom: 36px!important;
+  margin-bottom: 18px!important;
 }
 
 .tribe-events-event-image {
   margin-bottom: 47px!important;
+}
+
+.tribe-events-single-section-title{
+  font-size: 24px!important;
+  font-family: 'roc-grotesk'!important;
 }
 
 /*FORMS*/
