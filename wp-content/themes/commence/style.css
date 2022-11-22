@@ -37,7 +37,8 @@ section{
 }
 
 .n2-bullet{
-  transform:rotate(45deg)!important;
+  transform: rotate(60deg) skewX(30deg) scale(1, .866)!important;
+  border-radius: 0!important;
 }
 
 #home-slider .swiper-pagination-bullets span{
@@ -138,6 +139,12 @@ section{
 }
 
 /*EVENTS*/
+
+.tribe-events-calendar-list__event-featured-image{
+  height: 304px!important;
+  width: 276px!important;
+  object-fit: cover!important;
+}
 
 .tribe-events-c-top-bar__datepicker-button, .tribe-common-c-btn-icon {
   background-color: transparent!important;
