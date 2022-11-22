@@ -340,11 +340,12 @@ section{
 
 .tribe-meta-value a::after{
   content: "Eventbrite";
+  display: inline-block;
   position: absolute;
-  width:100%;
+  width:100px;
   height: 44px;
-    background-color: #DB4233;
-    color:#fff;
+  background-color: #DB4233;
+  color:#fff;
 }
 
 /*FORMS*/
