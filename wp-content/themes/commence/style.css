@@ -223,6 +223,14 @@ section{
     justify-content: flex-start;
 }
 
+#tribe-events-pg-template{
+  max-width: 100%!important;
+}
+
+.tribe-events-event-image, .tribe-events-event-meta, .tribe-block__venue, .type-tribe_events p{
+  max-width: 700px;
+}
+
 /*FORMS*/
 .frm_form_title{
   line-height: 67.2px!important;
