@@ -251,7 +251,16 @@ section{
   font-size: 24px;
   font-family: 'roc-grotesk'!important;
   text-transform: uppercase;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.tribe-events-schedule{
+  margin-bottom: 36px;
+}
+
+.tribe-events-event-image {
+  margin-bottom: 47px;
 }
 
 /*FORMS*/
