@@ -36,7 +36,7 @@ section{
   height: 45vh;
 }
 
-#home-slider .n2-bullet{
+.n2-bullet{
   width: 0;
   height: 0;
   border: 50px solid transparent;
@@ -45,7 +45,7 @@ section{
   top: -50px;
 }
 
-#home-slider .n2-bullet:after {
+.n2-bullet:after {
       content: '';
       position: absolute;
       left: -50px;
