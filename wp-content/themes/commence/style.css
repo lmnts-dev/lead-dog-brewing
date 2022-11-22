@@ -227,7 +227,7 @@ section{
   max-width: 100%!important;
 }
 
-.tribe-events-event-image, .tribe-events-event-meta, .tribe-block__venue, .type-tribe_events p{
+.tribe-events-event-image, .tribe-events-event-meta, .tribe-block__venue, .type-tribe_events p, .tribe-events-c-subscribe-dropdown__container{
   max-width: 700px;
   margin: 0 auto!important;
   font-family: 'roc-grotesk'!important;
@@ -282,18 +282,26 @@ section{
   margin: 0!important;
 }
 
-.tribe-events-c-subscribe-dropdown__button{
+.tribe-events-c-subscribe-dropdown__button-text{
   background-color: transparent!important;
   color:#000000!important;
   font-size: 18px!important;
   font-family: 'roc-grotesk'!important;
   font-weight: 500!important;
+  text-transform: capitalize!important;
 }
 
 .tribe-common-c-btn-border{
   background-color: transparent!important;
   border: none!important;
   border-bottom: 1.5px solid #DB4233!important;
+  display: flex!important;
+  align-items: center!important;
+  width: 240px!important;
+}
+
+.tribe-events-c-subscribe-dropdown{
+  width: 240px!important;
 }
 
 /*FORMS*/
