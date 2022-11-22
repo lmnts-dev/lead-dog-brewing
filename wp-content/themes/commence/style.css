@@ -441,7 +441,7 @@ section{
   padding-top: 8px;
 }
 
-#upcoming-events-carousel .ect-address{
+#upcoming-events-carousel .ect-address, .tribe-organizer, .tribe-venue, .tribe-venue-location, .tribe-events-start-date, .tribe-events-start-time{
   font-weight: 500;
   font-family: "roc-grotesk", Sans-serif;
   font-size: 18px;
