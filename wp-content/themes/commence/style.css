@@ -282,6 +282,20 @@ section{
   margin: 0!important;
 }
 
+.tribe-events-c-subscribe-dropdown__button{
+  background-color: transparent;
+  color:#000000;
+  font-size: 18px;
+  font-family: 'roc-grotesk'!important;
+  font-weight: 500;
+}
+
+.tribe-common-c-btn-border{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1.5px solid #DB4233;
+}
+
 /*FORMS*/
 .frm_form_title{
   line-height: 67.2px!important;
