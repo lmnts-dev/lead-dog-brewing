@@ -229,12 +229,13 @@ section{
 
 .tribe-events-event-image, .tribe-events-event-meta, .tribe-block__venue, .type-tribe_events p{
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0 auto!important;
+  font-family: 'roc-grotesk'!important;
 }
 
 .tribe-events-back, .tribe-events-single-event-title, .tribe-events-footer{
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1200px!important;
+  margin: 0 auto!important;
 }
 
 .tribe-events-single-event-title{
