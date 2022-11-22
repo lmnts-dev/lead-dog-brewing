@@ -146,6 +146,10 @@ section{
   object-fit: cover!important;
 }
 
+.alignwide{
+  margin: 0!important;
+}
+
 .tribe-events-c-top-bar__datepicker-button, .tribe-common-c-btn-icon {
   background-color: transparent!important;
 }

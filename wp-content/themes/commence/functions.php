@@ -239,11 +239,61 @@ function create_portal_content_cpt()
   register_post_type('portal_content', $args);
 }
 
-add_filter( 'allowed_http_origins', 'mytheme_add_origins' );
-/**
- * Add origins for CORS
- */
-function mytheme_add_origins( $origins ) {
-    $origins[] = 'https://raw.githubusercontent.com/';
-    return $origins;
+
+// Register Custom Post Type FAQS
+// Post Type Key: faq
+add_action('init', 'create_faq_cpt', 0);
+function create_faq_cpt()
+{
+  $labels = array(
+    'name' => __('FAQs', 'Post Type General Name', 'textdomain'),
+    'singular_name' => __('FAQ', 'Post Type Singular Name', 'textdomain'),
+    'menu_name' => __('FAQs', 'textdomain'),
+    'name_admin_bar' => __('FAQ', 'textdomain'),
+    'archives' => __('FAQ Archives', 'textdomain'),
+    'attributes' => __('FAQ Attributes', 'textdomain'),
+    'parent_item_colon' => __('Parent FAQ:', 'textdomain'),
+    'all_items' => __('All FAQs', 'textdomain'),
+    'add_new_item' => __('Add New FAQ Item', 'textdomain'),
+    'add_new' => __('Add New', 'textdomain'),
+    'new_item' => __('New FAQ Item', 'textdomain'),
+    'edit_item' => __('Edit FAQ Item', 'textdomain'),
+    'update_item' => __('Update FAQ Item', 'textdomain'),
+    'view_item' => __('View FAQ Item', 'textdomain'),
+    'view_items' => __('View FAQ', 'textdomain'),
+    'search_items' => __('Search FAQ', 'textdomain'),
+    'not_found' => __('Not found', 'textdomain'),
+    'not_found_in_trash' => __('Not found in Trash', 'textdomain'),
+    'featured_image' => __('Featured Image', 'textdomain'),
+    'set_featured_image' => __('Set featured image', 'textdomain'),
+    'remove_featured_image' => __('Remove featured image', 'textdomain'),
+    'use_featured_image' => __('Use as featured image', 'textdomain'),
+    'insert_into_item' => __('Insert into FAQ Item', 'textdomain'),
+    'uploaded_to_this_item' => __('Uploaded to this FAQ Item', 'textdomain'),
+    'items_list' => __('FAQ list', 'textdomain'),
+    'items_list_navigation' => __('FAQ list navigation', 'textdomain'),
+    'filter_items_list' => __('Filter FAQ list', 'textdomain'),
+  );
+  $args = array(
+    'label' => __('FAQ', 'textdomain'),
+    'description' => __('', 'textdomain'),
+    'labels' => $labels,
+    'menu_icon' => 'dashicons-text',
+    'supports' => array('title', 'excerpt', 'thumbnail'),
+    'public' => true,
+    'show_ui' => true,
+    'show_in_menu' => true,
+    'menu_position' => 4,
+    'show_in_admin_bar' => true,
+    'show_in_nav_menus' => true,
+    'can_export' => true,
+    'has_archive' => false,
+    'hierarchical' => false,
+    'exclude_from_search' => false,
+    'show_in_rest' => true,
+    'publicly_queryable' => true,
+    'capability_type' => 'post',
+    'taxonomies' => array('post_tag', 'category'),
+  );
+  register_post_type('faq', $args);
 }
