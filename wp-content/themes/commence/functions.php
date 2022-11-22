@@ -279,7 +279,7 @@ function create_faq_cpt()
     'description' => __('', 'textdomain'),
     'labels' => $labels,
     'menu_icon' => 'dashicons-text',
-    'supports' => array('title', 'excerpt', 'thumbnail'),
+    'supports' => array('title', 'excerpt', 'thumbnail', 'editor'),
     'public' => true,
     'show_ui' => true,
     'show_in_menu' => true,
