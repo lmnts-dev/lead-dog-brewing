@@ -233,7 +233,7 @@ section{
   font-family: 'roc-grotesk'!important;
 }
 
-.tribe-events-back, .tribe-events-single-event-title, .tribe-events-footer, .tribe-events-schedule__datetime{
+.tribe-events-back, .tribe-events-single-event-title, #tribe-events-footer, .tribe-events-schedule__datetime{
   max-width: 1200px!important;
   margin: 0 auto!important;
 }
@@ -252,15 +252,15 @@ section{
   font-family: 'roc-grotesk'!important;
   text-transform: uppercase;
   margin-bottom: 32px;
-  font-weight: 500;
+  font-weight: 500!important;
 }
 
 .tribe-events-schedule{
-  margin-bottom: 36px;
+  margin-bottom: 36px!important;
 }
 
 .tribe-events-event-image {
-  margin-bottom: 47px;
+  margin-bottom: 47px!important;
 }
 
 /*FORMS*/
