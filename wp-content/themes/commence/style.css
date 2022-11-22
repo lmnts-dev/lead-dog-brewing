@@ -37,24 +37,8 @@ section{
 }
 
 .n2-bullet{
-  width: 0!important;
-  height: 0;
-  border: 50px solid transparent!important;
-  border-bottom: 70px solid #f4ebda!important;
-  position: relative!important;
-  top: -50px!important;
+  transform:rotate(45deg)!important;
 }
-
-.n2-bullet:after {
-      content: ''!important;
-      position: absolute!important;
-      left: -50px!important;
-      top: 70px!important;
-      width: 0!important;
-      height: 0!important;
-      border: 50px solid transparent!important;
-      border-top: 70px solid #f4ebda!important;
-    }
 
 #home-slider .swiper-pagination-bullets span{
   width: 19px;
