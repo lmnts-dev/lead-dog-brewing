@@ -36,6 +36,26 @@ section{
   height: 45vh;
 }
 
+#home-slider .n2-bullet{
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom: 70px solid #f4ebda;
+  position: relative;
+  top: -50px;
+}
+
+#home-slider .n2-bullet:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 70px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top: 70px solid #f4ebda;
+    }
+
 #home-slider .swiper-pagination-bullets span{
   width: 19px;
 }
