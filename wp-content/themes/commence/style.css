@@ -333,19 +333,31 @@ section{
   width: 240px!important;
 }
 
-.tribe-meta-value a{
-  display: none;
+.tribe-meta-value {
   position: relative;
 }
 
-.tribe-meta-value a::after{
-  content: "Eventbrite";
-  display: inline-block;
+.tribe-meta-value a{
   position: absolute;
-  width:100px;
+  height: 100%;
+  z-index: 1000;
+  bottom: 0;
+  top: 0;
+}
+
+.tribe-meta-value::after{
+  content: "Eventbrite Tickets";
+  display: block;
+  position: absolute;
+  width: 100%;
   height: 44px;
   background-color: #DB4233;
-  color:#fff;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 /*FORMS*/
