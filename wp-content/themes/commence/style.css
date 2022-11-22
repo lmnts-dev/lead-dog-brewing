@@ -144,7 +144,7 @@ section{
   font-family: 'roc-grotesk'!important;
 }
 
-.tribe-events-c-subscribe-dropdown__container{
+#upcoming-events .tribe-events-c-subscribe-dropdown__container{
   display: none!important;
 }
 
@@ -269,8 +269,8 @@ section{
   font-weight: 500!important;
 }
 
-.tribe-events-start-date-label, .tribe-events-start-time-label{
-
+.tribe-events-event-meta:before{
+  border: none!important;
 }
 
 .tribe-events-back, .tribe-events-single-event-title{
@@ -279,6 +279,7 @@ section{
 
 .tribe-events-schedule h2{
   font-size: 18px!important;
+  margin: 0!important;
 }
 
 /*FORMS*/
