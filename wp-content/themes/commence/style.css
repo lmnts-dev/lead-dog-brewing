@@ -233,6 +233,10 @@ section{
   font-family: 'roc-grotesk'!important;
 }
 
+.tribe-events-c-subscribe-dropdown__container{
+  width: 700px!important;
+}
+
 .tribe-events-back, .tribe-events-single-event-title, #tribe-events-footer, .tribe-events-schedule__datetime, .tribe-events-schedule{
   max-width: 1200px!important;
   margin: 0 auto!important;
@@ -300,6 +304,7 @@ section{
   background-color: transparent!important;
   border: none!important;
   border-bottom: 1.5px solid #DB4233!important;
+  border-radius: 0!important;
   display: flex!important;
   align-items: center!important;
   width: 240px!important;
