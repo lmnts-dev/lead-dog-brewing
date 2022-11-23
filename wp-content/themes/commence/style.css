@@ -15,7 +15,7 @@ section{
   padding: 96px 36px;
 }
 
-h1, h2{
+h1{
   line-height: 67.2px!important;
 }
 
@@ -198,6 +198,10 @@ h1, h2{
   margin: 0!important;
 }
 
+.ev-yr{
+  font-size: 1em!important;
+}
+
 .tribe-events-c-top-bar__datepicker-button, .tribe-common-c-btn-icon {
   background-color: transparent!important;
   transition: all 1s;
@@ -221,7 +225,7 @@ h1, h2{
 }
 
 .tribe-events-calendar-list__event-date-tag-weekday, .tribe-events-c-small-cta__price{
-  font-size: 18px!important;
+  font-size: 1em!important;
   font-weight: 500!important;
   color: #1C241D80!important;
   font-family: 'roc-grotesk'!important;
@@ -240,7 +244,7 @@ h1, h2{
 }
 
 .tribe-events-calendar-list__event-datetime, .tribe-events-calendar-list__event-description, .tribe-events-calendar-list__month-separator-text{
-  font-size: 18px!important;
+  font-size: 1em!important;
   font-weight: 500!important;
   font-family: 'roc-grotesk'!important;
 }
@@ -331,6 +335,10 @@ h1, h2{
   margin-bottom: 18px!important;
 }
 
+.ect-venue-details a{
+  font-family: 'roc-grotesk'!important;
+}
+
 .tribe-events-event-image {
   margin-bottom: 47px!important;
 }
@@ -350,14 +358,14 @@ h1, h2{
 }
 
 .tribe-events-schedule h2{
-  font-size: 18px!important;
+  font-size: 1em!important;
   margin: 0!important;
 }
 
 .tribe-events-c-subscribe-dropdown__button-text{
   background-color: transparent!important;
   color:#000000!important;
-  font-size: 18px!important;
+  font-size: 1em!important;
   font-family: 'roc-grotesk'!important;
   font-weight: 500!important;
   text-transform: capitalize!important;
@@ -443,7 +451,7 @@ h1, h2{
 
 #contact-forms-container #frm_add_form_row, #contact-forms-container #frm_remove_form_row{
   padding: 10px 20px!important;
-  font-size: 18px!Important;
+  font-size: 1em!Important;
 }
 
 #contact-info{
@@ -469,7 +477,7 @@ h1, h2{
 }
 
 .ect-event-content p{
-  font-size: 18px!important;
+  font-size: 1em!important;
   font-family: 'roc-grotesk'!important;
   color: #112213!important;
   font-weight: 500!important;
@@ -531,7 +539,7 @@ h1, h2{
   order: 3;
   grid-column: 1 / -1;
   font-family: 'roc-grotesk'!important;
-  font-size: 18px;
+  font-size: 1em;
   font-weight: 500;
   border-bottom: 1px solid black;
   height: fit-content!important;
@@ -544,7 +552,7 @@ h1, h2{
 #upcoming-events-carousel .ect-carousel-description .ect-event-content p{
   margin-bottom: 24px;
   font-family: "roc-grotesk", Sans-serif!important;
-  font-size: 18px;
+  font-size: 1em;
   color: #00445e, impor !important;;
 }
 
@@ -556,7 +564,7 @@ h1, h2{
 #upcoming-events-carousel .ect-address, .tribe-organizer, .tribe-venue, .tribe-venue-location, .tribe-events-start-date, .tribe-events-start-time{
   font-weight: 500;
   font-family: "roc-grotesk", Sans-serif;
-  font-size: 18px!important;
+  font-size: 1em!important;
   color: #112213!important;
 }
 
@@ -607,7 +615,7 @@ h1, h2{
 
 #upcoming-events-carousel .ect-carousel-date{
   order: 5;
-  font-size: 18px!important;
+  font-size: 1em!important;
   padding-top: 8px;
   font-family: "roc-grotesk", Sans-serif!important;
   color: #112213!important;
@@ -615,7 +623,7 @@ h1, h2{
 }
 
 #upcoming-events-carousel .ect-carousel-date .ev-time{
-  font-size: 18px!important;
+  font-size: 1em!important;
 }
 
 #upcoming-events-carousel .ect-carousel-date .ect-icon{
@@ -701,7 +709,7 @@ h1, h2{
     width: 45%!important;
     max-width: 666px;
     text-align: center;
-    font-size: 18px;
+    font-size: 1em;
     font-family: 'roc-grotesk'!important;
     color: #F2E9D8;
  }
@@ -711,7 +719,7 @@ h1, h2{
     background-color: #021503!important;
     border-color: #424D43!important;
     color: rgb(244, 235, 218)!important;
-    font-size: 18px!important;
+    font-size: 1em!important;
   }
 
  .ppw-post-password-container .ppw-pwd-submit-btn{
