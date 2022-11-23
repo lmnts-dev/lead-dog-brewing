@@ -138,6 +138,16 @@ section{
   top: 35%;
 }
 
+/*FEATURED ARTISTS SECTION*/
+.artist--nathaniel-benjamin:hover #featured-artists{
+  background-color: #C35748;
+}
+
+.artist--hannah-eddy:hover #featured-artists{
+  background-color: #C0B7D5;
+}
+
+
 /*EVENTS*/
 
 .tribe-events-calendar-list__event-featured-image{
@@ -340,16 +350,18 @@ section{
 .tribe-meta-value a{
   position: absolute;
   height: 100%;
-  z-index: 1000;
+  z-index: 100;
   bottom: 0;
   top: 0;
+  opacity: 0;
+  width: 240px;
 }
 
 .tribe-meta-value::after{
-  content: "Eventbrite Tickets";
+  content: "Eventbrite";
   display: block;
   position: absolute;
-  width: 100%;
+  width: 220px;
   height: 44px;
   background-color: #DB4233;
   color: #fff;
