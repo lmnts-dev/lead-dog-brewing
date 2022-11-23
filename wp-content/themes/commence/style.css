@@ -139,22 +139,19 @@ section{
 }
 
 /*FEATURED ARTISTS SECTION*/
-#featured-artists{
-  pointer-events: none;
+
+#featured-artists:has(.artist--nathaniel-benjamin:hover){
+  background-color: #C35748;
 }
 
-.artist--nathaniel-benjamin:hover #featured-artists{
-    pointer-events: auto;
+
+/* .artist--nathaniel-benjamin:hover #featured-artists{
+  background-color: #C35748;
 }
 
 .artist--hannah-eddy:hover #featured-artists{
-  /* background-color: #C0B7D5; */
-  pointer-events: auto;
-}
-
-#featured-artists:hover{
-  background-color: #C35748;
-}
+  background-color: #C0B7D5;
+} */
 
 
 /*EVENTS*/
