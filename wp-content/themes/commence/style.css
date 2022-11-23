@@ -108,8 +108,17 @@ h1{
 }
 
 #artist-slider .owl-dots .owl-dot{
-  background-color: #F4EBDA;
-  opacity: 40%;
+  background: #f4ebda;
+  opacity: 0.2;
+  padding: 6px;
+  box-shadow: none;
+  border: 0px solid RGBA(0,0,0,1);
+  /* border-radius: 50px; */
+  margin: 4px;
+  width: 0;
+  transform: rotate(60deg) skewX(30deg) scale(1, .866)!important;
+  border-radius: 0;
+  height: 0;
 }
 
 #artist-slider .owl-dots .owl-dot.active{
@@ -142,7 +151,7 @@ h1{
   content: "";
   position: absolute;
   left: 65px;
-  border: 1.5px solid #000;
+  border: 1px solid #000;
   height: 50%;
   top: 35%;
 }
