@@ -15,6 +15,10 @@ section{
   padding: 96px 36px;
 }
 
+h1, h2{
+  line-height: 67.2px!important;
+}
+
 
 #keep-in-touch .elementor-form-fields-wrapper{
   display: flex;
@@ -41,12 +45,9 @@ section{
   border-radius: 0!important;
 }
 
-.nextend-bullet-bar div{
-  margin-bottom: 26px!important;
-}
-
 .n2-active{
   transform: rotate(150deg) skewX(30deg) scale(1, .866)!important;
+
 }
 
 #home-slider .swiper-pagination-bullets span{
@@ -171,6 +172,7 @@ section{
 
 .tribe-events-c-top-bar__datepicker-button, .tribe-common-c-btn-icon {
   background-color: transparent!important;
+  transition: all .3s;
 }
 
 .tribe-events-c-top-bar__datepicker-button{
