@@ -139,12 +139,21 @@ section{
 }
 
 /*FEATURED ARTISTS SECTION*/
+#featured-artists{
+  pointer-events: none;
+}
+
 .artist--nathaniel-benjamin:hover #featured-artists{
-  background-color: #C35748;
+    pointer-events: auto;
 }
 
 .artist--hannah-eddy:hover #featured-artists{
-  background-color: #C0B7D5;
+  /* background-color: #C0B7D5; */
+  pointer-events: auto;
+}
+
+#featured-artists:hover{
+  background-color: #C35748;
 }
 
 
