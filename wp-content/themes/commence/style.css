@@ -153,10 +153,13 @@ h1, h2{
   background-color: #C35748;
 }
 
+#featured-artists:has(.artist--nathaniel-benjamin:hover){
+  background-color: #C35748;
+}
+
 #featured-artists:has(.artist--hannah-eddy:hover){
   background-color: #C0B7D5;
 } 
-
 
 /*EVENTS*/
 
@@ -383,6 +386,7 @@ h1, h2{
   text-transform: uppercase;
 }
 
+
 /*FORMS*/
 .frm_form_title{
   line-height: 67.2px!important;
@@ -430,6 +434,18 @@ h1, h2{
   box-shadow: none!important;
   border: none!important;
   grid-auto-rows: minmax(min-content, max-content)!important;
+}
+
+.ect-event-url{
+  color: #112213!important;
+  font-family: 'roc-grotesk'!important;
+  font-size: 24px!important;
+}
+
+.ect-event-content p{
+  font-size: 18px!important;
+  font-family: 'roc-grotesk'!important;
+  color: #112213!important;
 }
 
 #upcoming-events-carousel .ect-carousel{
