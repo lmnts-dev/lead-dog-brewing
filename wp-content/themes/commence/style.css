@@ -112,7 +112,7 @@ h1{
   opacity: 0.2;
   padding: 6px!important;
   box-shadow: none;
-  margin: 4px;
+  margin-bottom: 24px;
   width: 0;
   transform: rotate(60deg) skewX(30deg) scale(1, .866)!important;
   border-radius: 0;
@@ -121,6 +121,7 @@ h1{
 
 #artist-slider .owl-dots .owl-dot.active{
   opacity: 100%!important;
+  transform: rotate(150deg) skewX(30deg) scale(1, .866)!important;
 }
 
 .artist-single .featured-img img{
@@ -177,6 +178,10 @@ h1{
   border-top: 1px solid #112213;
   border-right: 1px solid #112213;
   transform: rotate(225deg);
+}
+
+#single-artist-slider .elementor-widget-heading{
+  margin-bottom: 3px!important;
 }
 
 /*FEATURED ARTISTS SECTION*/
