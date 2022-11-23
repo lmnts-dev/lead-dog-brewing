@@ -110,10 +110,8 @@ h1{
 #artist-slider .owl-dots .owl-dot{
   background: #f4ebda;
   opacity: 0.2;
-  padding: 6px;
+  padding: 6px!important;
   box-shadow: none;
-  border: 0px solid RGBA(0,0,0,1);
-  /* border-radius: 50px; */
   margin: 4px;
   width: 0;
   transform: rotate(60deg) skewX(30deg) scale(1, .866)!important;
