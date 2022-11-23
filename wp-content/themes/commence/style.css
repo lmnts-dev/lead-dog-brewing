@@ -200,10 +200,35 @@ h1{
 
 /*EVENTS*/
 
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector--tabs .tribe-events-c-view-selector__list-item--active .tribe-events-c-view-selector__list-item-link:after{
+  bottom: 16px!important;
+}
+
+.tribe-events-c-top-bar__today-button {
+  font-size: 14px!important;
+}
+
+.tribe-events-c-top-bar__datepicker-desktop{
+  font-size: 24px!important;
+  font-weight: 500!important;
+}
+
+.tribe-events-calendar-list__month-separator{
+  font-size: 18px!important;
+}
+
 .tribe-events-calendar-list__event-featured-image{
   height: 304px!important;
   width: 276px!important;
   object-fit: cover!important;
+}
+
+.tribe-events-c-nav__prev-label{
+  color: #112213!important;
+}
+
+.tribe-common-c-svgicon{
+  fill:#112213!important;
 }
 
 .alignwide{
@@ -217,6 +242,7 @@ h1{
 .tribe-events-c-top-bar__datepicker-button, .tribe-common-c-btn-icon {
   background-color: transparent!important;
   transition: all 1s;
+  line-height: 24px!important;
 }
 
 .tribe-events-c-top-bar__datepicker-button{
