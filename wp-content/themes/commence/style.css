@@ -147,6 +147,31 @@ h1, h2{
   top: 35%;
 }
 
+/*BEER CAROUSEL*/
+#beer-carousel .fa-arrow-right:before{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10px;
+  height: 12px;
+  width: 12px;
+  border-top: 1px solid #112213;
+  border-right: 1px solid #112213;
+  transform: rotate(45deg);
+}
+
+#beer-carousel .fa-arrow-left:before{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10px;
+  height: 12px;
+  width: 12px;
+  border-top: 1px solid #112213;
+  border-right: 1px solid #112213;
+  transform: rotate(225deg);
+}
+
 /*FEATURED ARTISTS SECTION*/
 
 #featured-artists:has(.artist--nathaniel-benjamin:hover){
@@ -175,7 +200,7 @@ h1, h2{
 
 .tribe-events-c-top-bar__datepicker-button, .tribe-common-c-btn-icon {
   background-color: transparent!important;
-  transition: all .3s;
+  transition: all 1s;
 }
 
 .tribe-events-c-top-bar__datepicker-button{
@@ -586,6 +611,7 @@ h1, h2{
   padding-top: 8px;
   font-family: "roc-grotesk", Sans-serif!important;
   color: #112213!important;
+  font-weight: 500!important;
 }
 
 #upcoming-events-carousel .ect-carousel-date .ev-time{
