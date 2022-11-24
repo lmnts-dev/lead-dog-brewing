@@ -124,17 +124,9 @@ $title = apply_filters( 'tribe_events_single_event_title_html', the_title( $befo
 		<?php if ( get_post_type() == Tribe__Events__Main::POSTTYPE && tribe_get_option( 'showComments', false ) ) comments_template() ?>
 	<?php endwhile; ?>
 
-	<!-- Event footer -->
-	<div id="tribe-events-footer">
-		<!-- Navigation -->
-		<nav class="tribe-events-nav-pagination" aria-label="<?php printf( esc_html__( '%s Navigation', 'the-events-calendar' ), $events_label_singular ); ?>">
-			<ul class="tribe-events-sub-nav">
-				<li class="tribe-events-nav-previous"><?php tribe_the_prev_event_link( '<span>&laquo;</span> %title%' ) ?></li>
-				<li class="tribe-events-nav-next"><?php tribe_the_next_event_link( '%title% <span>&raquo;</span>' ) ?></li>
-			</ul>
-			<!-- .tribe-events-sub-nav -->
-		</nav>
-	</div>
 	<!-- #tribe-events-footer -->
-<?php echo do_shortcode('[events-calendar-templates category="all" template="carousel-view" style="style-3" date_format="MD,YT" start_date="" end_date="" limit="10" order="ASC" hide-venue="no" socialshare="no" time="all" columns="3" venues="" organizers="" autoplay="false" tags="" featured-only="false" show-description="yes"]'); ?>
+  <h2>More Events</h2>
+  <div id="upcoming-events-carousel">
+    <?php echo do_shortcode('[events-calendar-templates category="all" template="carousel-view" style="style-3" date_format="MD,YT" start_date="" end_date="" limit="10" order="ASC" hide-venue="no" socialshare="no" time="all" columns="3" venues="" organizers="" autoplay="false" tags="" featured-only="false" show-description="yes"]'); ?>
+  </div>
 </div><!-- #tribe-events-content -->
