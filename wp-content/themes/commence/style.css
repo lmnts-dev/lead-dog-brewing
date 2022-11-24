@@ -309,6 +309,16 @@ h1{
   padding-top: 10px!important;
 }
 
+.single-event-carousel{
+  padding-top: 96px!important;
+}
+
+.single-event-carousel h2{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
 .tribe-events-calendar-list__event-description p{
   font-weight: 500!important;
 }
