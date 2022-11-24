@@ -392,10 +392,6 @@ h1{
   font-size: 60px!important;
 }
 
-#tribe-events-content section{
-  padding-top: 0!important;
-}
-
 .tribe-events-back a{
   color: #112213!important;
   font-size: 24px;
@@ -551,6 +547,10 @@ h1{
   box-shadow: none!important;
   border: none!important;
   grid-auto-rows: minmax(min-content, max-content)!important;
+}
+
+#upcoming-events-carousel .elementor-widget-heading{
+  top:30px!important;
 }
 
 .ect-event-url{
