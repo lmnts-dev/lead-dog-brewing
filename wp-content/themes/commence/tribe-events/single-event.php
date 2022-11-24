@@ -125,8 +125,11 @@ $title = apply_filters( 'tribe_events_single_event_title_html', the_title( $befo
 	<?php endwhile; ?>
 
 	<!-- #tribe-events-footer -->
-  <h2>More Events</h2>
-  <div id="upcoming-events-carousel">
-    <?php echo do_shortcode('[events-calendar-templates category="all" template="carousel-view" style="style-3" date_format="MD,YT" start_date="" end_date="" limit="10" order="ASC" hide-venue="no" socialshare="no" time="all" columns="3" venues="" organizers="" autoplay="false" tags="" featured-only="false" show-description="yes"]'); ?>
-  </div>
+
+  <section class="single-event-carousel">
+    <h2>More Events</h2>
+    <div id="upcoming-events-carousel">
+      <?php echo do_shortcode('[events-calendar-templates category="all" template="carousel-view" style="style-3" date_format="MD,YT" start_date="" end_date="" limit="10" order="ASC" hide-venue="no" socialshare="no" time="all" columns="3" venues="" organizers="" autoplay="false" tags="" featured-only="false" show-description="yes"]'); ?>
+    </div>
+  </section>
 </div><!-- #tribe-events-content -->
