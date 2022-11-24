@@ -254,7 +254,7 @@ h1{
 }
 
 .ev-yr{
-  font-size: 1em!important;
+  font-size: 18px!important;
 }
 
 .tribe-events-c-top-bar__datepicker-button, .tribe-common-c-btn-icon {
@@ -281,7 +281,7 @@ h1{
 }
 
 .tribe-events-calendar-list__event-date-tag-weekday, .tribe-events-c-small-cta__price{
-  font-size: 1em!important;
+  font-size: 18px!important;
   font-weight: 500!important;
   color: #1C241D80!important;
   font-family: 'roc-grotesk'!important;
@@ -300,7 +300,7 @@ h1{
 }
 
 .tribe-events-calendar-list__event-datetime, .tribe-events-calendar-list__event-description, .tribe-events-calendar-list__month-separator-text{
-  font-size: 1em!important;
+  font-size: 18px!important;
   font-weight: 500!important;
   font-family: 'roc-grotesk'!important;
 }
@@ -361,7 +361,11 @@ h1{
   font-family: 'roc-grotesk'!important;
 }
 
-.tribe-events-c-subscribe-dropdown__container{
+.tribe-events-start-date-label, .tribe-events-start-time-label, .tribe-events-event-cost-label{
+  font-weight: 400!important;
+}
+
+.tribe-events-c-subscribe-dropdown__container, .tribe-events-event-meta{
   width: 700px!important;
 }
 
@@ -388,7 +392,7 @@ h1{
 }
 
 .tribe-events-schedule{
-  margin-bottom: 18px!important;
+  margin-bottom: 36px!important;
 }
 
 .ect-venue-details a{
@@ -414,18 +418,24 @@ h1{
 }
 
 .tribe-events-schedule h2{
-  font-size: 1em!important;
+  font-size: 18px!important;
   margin: 0!important;
+  font-family: 'roc-grotesk'!important;
+}
+
+.tribe-events-cost{
+  margin-left: 24px!important;
 }
 
 .tribe-events-c-subscribe-dropdown__button-text{
   background-color: transparent!important;
   color:#000000!important;
-  font-size: 1em!important;
+  font-size: 18px!important;
   font-family: 'roc-grotesk'!important;
   font-weight: 500!important;
   text-transform: capitalize!important;
   padding:0!important;
+  justify-content: space-between!important;
 }
 
 .tribe-events-c-subscribe-dropdown__export-icon, .tribe-events-c-subscribe-dropdown__button-icon{
@@ -475,6 +485,10 @@ h1{
   text-transform: uppercase;
 }
 
+#tribe-events-pg-template .tribe-events-cost{
+  font-weight: 500!Important;
+}
+
 
 /*FORMS*/
 .frm_form_title{
@@ -507,7 +521,7 @@ h1{
 
 #contact-forms-container #frm_add_form_row, #contact-forms-container #frm_remove_form_row{
   padding: 10px 20px!important;
-  font-size: 1em!Important;
+  font-size: 18px!Important;
 }
 
 #contact-info{
@@ -533,7 +547,7 @@ h1{
 }
 
 .ect-event-content p{
-  font-size: 1em!important;
+  font-size: 18px!important;
   font-family: 'roc-grotesk'!important;
   color: #112213!important;
   font-weight: 500!important;
@@ -595,7 +609,7 @@ h1{
   order: 3;
   grid-column: 1 / -1;
   font-family: 'roc-grotesk'!important;
-  font-size: 1em;
+  font-size: 18px;
   font-weight: 500;
   border-bottom: 1px solid black;
   height: fit-content!important;
@@ -608,7 +622,7 @@ h1{
 #upcoming-events-carousel .ect-carousel-description .ect-event-content p{
   margin-bottom: 24px;
   font-family: "roc-grotesk", Sans-serif!important;
-  font-size: 1em;
+  font-size: 18px;
   color: #00445e, impor !important;;
 }
 
@@ -620,7 +634,7 @@ h1{
 #upcoming-events-carousel .ect-address, .tribe-organizer, .tribe-venue, .tribe-venue-location, .tribe-events-start-date, .tribe-events-start-time{
   font-weight: 500;
   font-family: "roc-grotesk", Sans-serif;
-  font-size: 1em!important;
+  font-size: 18px!important;
   color: #112213!important;
 }
 
@@ -671,7 +685,7 @@ h1{
 
 #upcoming-events-carousel .ect-carousel-date{
   order: 5;
-  font-size: 1em!important;
+  font-size: 18px!important;
   padding-top: 8px;
   font-family: "roc-grotesk", Sans-serif!important;
   color: #112213!important;
@@ -679,7 +693,7 @@ h1{
 }
 
 #upcoming-events-carousel .ect-carousel-date .ev-time{
-  font-size: 1em!important;
+  font-size: 18px!important;
 }
 
 #upcoming-events-carousel .ect-carousel-date .ect-icon{
@@ -765,7 +779,7 @@ h1{
     width: 45%!important;
     max-width: 666px;
     text-align: center;
-    font-size: 1em;
+    font-size: 18px;
     font-family: 'roc-grotesk'!important;
     color: #F2E9D8;
  }
@@ -775,7 +789,7 @@ h1{
     background-color: #021503!important;
     border-color: #424D43!important;
     color: rgb(244, 235, 218)!important;
-    font-size: 1em!important;
+    font-size: 18px!important;
   }
 
  .ppw-post-password-container .ppw-pwd-submit-btn{
