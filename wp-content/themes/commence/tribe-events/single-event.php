@@ -136,7 +136,5 @@ $title = apply_filters( 'tribe_events_single_event_title_html', the_title( $befo
 		</nav>
 	</div>
 	<!-- #tribe-events-footer -->
-
-  <p>[events-calendar-templates category="all" template="carousel-view" style="style-3" date_format="MD,YT" start_date="" end_date="" limit="10" order="ASC" hide-venue="no" socialshare="no" time="all" columns="3" venues="" organizers="" autoplay="false" tags="" featured-only="false" show-description="yes"]</p>
-
+<?php echo do_shortcode('[events-calendar-templates category="all" template="carousel-view" style="style-3" date_format="MD,YT" start_date="" end_date="" limit="10" order="ASC" hide-venue="no" socialshare="no" time="all" columns="3" venues="" organizers="" autoplay="false" tags="" featured-only="false" show-description="yes"]'); ?>
 </div><!-- #tribe-events-content -->
