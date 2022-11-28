@@ -101,6 +101,10 @@ h1{
   top: 60%;
 }
 
+.owl-next, .owl-prev{
+  outline: none!important;
+}
+
 #artist-slider .owl-dots button{
   width: 14px;
   height: 19px;
@@ -549,7 +553,7 @@ h1{
   grid-auto-rows: minmax(min-content, max-content)!important;
 }
 
-#upcoming-events-carousel .elementor-widget-heading{
+#upcoming-events .elementor-widget-heading{
   top:30px!important;
 }
 
@@ -723,6 +727,22 @@ h1{
 }
 
 /*FAQS*/
+
+#faqs-accordions .uc_ac_box{
+  position: relative;
+}
+
+#faqs-accordions .uc_trigger{
+  padding-top: 18px;
+}
+
+#faqs-accordions .ue_accordion_icon{
+  position: absolute;
+  right: 0;
+  top: 2px;
+  padding-top: 18px;
+  height: fit-content;
+}
 
 /*AGE GATE*/
 .age-gate{
