@@ -743,10 +743,14 @@ h1{
   height: fit-content;
 }
 
-#faqs-accordions .uc-dactive{
+#faqs-accordions .uc_dactive{
   background-image: url('/wp-content/uploads/2022/11/Union.svg');
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+#faqs-accordions .fa-plus:before, #faqs-accordions .fa-minus:before{
+  content: none!important;
 }
 
 #faqs-accordions .uc_active{
