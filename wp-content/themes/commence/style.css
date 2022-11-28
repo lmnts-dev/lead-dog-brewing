@@ -321,6 +321,15 @@ h1{
   text-align: center;
   width: 100%;
   position: absolute;
+  max-width: 1300px!important;
+}
+
+.single-event-carousel .ect-carousel{
+  padding-bottom: 0!important;
+}
+
+.style-3 .ect-carousel-event-area{
+  border-radius: 0!important;
 }
 
 .tribe-events-calendar-list__event-description p{
