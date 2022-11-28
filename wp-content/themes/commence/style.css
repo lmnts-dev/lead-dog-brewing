@@ -751,6 +751,8 @@ h1{
 
 #faqs-accordions .fa-plus:before, #faqs-accordions .fa-minus:before{
   content: none!important;
+  width: 27px!important;
+  height: 27px!important;
 }
 
 #faqs-accordions .uc_active{
