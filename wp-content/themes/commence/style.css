@@ -350,6 +350,7 @@ h1{
   font-size: 24px!important;
   font-weight: 500!important;
   font-family: 'roc-grotesk'!important;
+  text-transform:uppercase!important;
 }
 
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector--tabs .tribe-events-c-view-selector__list-item--active .tribe-events-c-view-selector__list-item-link:after{
@@ -360,11 +361,16 @@ h1{
   color: #DB4233;
 }
 
+.tribe-events .tribe-events-calendar-list__month-separator:after{
+  background-color: #E8D2B0!important;
+}
+
 .tribe-events-c-search__button{
   border-radius: 0!important;
   font-size: 24px!important;
   font-family: 'roc-grotesk'!important;
   font-weight: 500!important;
+  padding: 5px 20px!important;
 }
 
 .tribe-events-calendar-list__event-featured-image{
