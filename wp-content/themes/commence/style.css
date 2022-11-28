@@ -315,6 +315,7 @@ h1{
 
 .single-event-carousel{
   padding-top: 96px!important;
+  padding-bottom: 0!important;
 }
 
 .single-event-carousel h2{
@@ -322,6 +323,9 @@ h1{
   width: 100%;
   position: absolute;
   max-width: 1300px!important;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
 }
 
 .single-event-carousel .ect-carousel{
@@ -856,4 +860,9 @@ h1{
  .ppw-post-password-container .ppw-pwd-submit-btn{
   max-width: 173px!important;
   margin-top: 37px;
+ }
+
+ /*PORTAL CONTENT */
+ #content-item .elementor-widget-heading{
+  margin-bottom: 16px!important; 
  }
