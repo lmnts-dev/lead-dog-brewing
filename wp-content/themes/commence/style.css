@@ -522,6 +522,22 @@ h1{
   line-height: 67.2px!important;
 }
 
+.frm_form_title{
+	line-height: 67.2px;
+}
+
+*{
+	font-weight:500!important;
+}
+
+.frm_description{
+	margin-bottom: 50px;
+}
+
+.with_frm_style .frm-show-form div.frm_description p:first-child{
+	margin-bottom: 24px!important;
+}
+
 #contact-forms-container .theplus-tabs-content-wrapper{
   border-left: 1px solid #DB4233;
 }
@@ -866,3 +882,5 @@ h1{
  #content-item .elementor-widget-heading{
   margin-bottom: 16px!important; 
  }
+
+
