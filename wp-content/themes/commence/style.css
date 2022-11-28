@@ -750,7 +750,6 @@ h1{
 }
 
 #faqs-accordions .fa-plus:before, #faqs-accordions .fa-minus:before{
-  display: none!important;
   width: 27px!important;
   height: 27px!important;
 }
