@@ -739,10 +739,22 @@ h1{
 #faqs-accordions .ue_accordion_icon{
   position: absolute;
   right: 0;
-  top: 2px;
-  padding-top: 18px;
+  top: 5px;
   height: fit-content;
 }
+
+#faqs-accordions .uc-dactive{
+  background-image: url('/wp-content/uploads/2022/11/Union.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#faqs-accordions .uc_active{
+  background-image: url('/wp-content/uploads/2022/11/minus.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 
 /*AGE GATE*/
 .age-gate{
