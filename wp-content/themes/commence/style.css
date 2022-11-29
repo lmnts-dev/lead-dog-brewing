@@ -214,6 +214,11 @@ h1{
   margin-left: -200px;
 }
 
+#featured-artists .artist--first .elementor-absolute, #featured-artists .artist--second .elementor-absolute{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .author-ticket{
   display: flex;
   align-items: center;
