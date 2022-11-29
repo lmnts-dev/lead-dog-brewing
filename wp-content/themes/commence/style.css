@@ -202,14 +202,16 @@ h1{
   background-color: #C0B7D5;
 } 
 
-#featured-artists .artist--first:hover .artist-artwork img{
-  margin-right: -200px;
+#featured-artists .artist--first, #featured-artists .artist--second{
   transition: all 1s;
 }
 
-#featured-artists .artist--secomd:hover .artist-artwork img{
+#featured-artists .artist--first:hover .artist-artwork img{
   margin-right: -200px;
-  transition: all 1s;
+}
+
+#featured-artists .artist--second:hover .artist-artwork img{
+  margin-right: -200px;
 }
 
 
