@@ -202,8 +202,9 @@ h1{
   background-color: #C0B7D5;
 } 
 
-#featured-artists section:hover .artist-artwork{
+#featured-artists section:hover .artist-artwork img{
   margin-right: -200px;
+  transition: all 1s;
 }
 
 /*EVENTS*/
