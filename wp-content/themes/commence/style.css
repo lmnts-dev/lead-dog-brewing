@@ -224,16 +224,23 @@ h1{
   align-items: center;
 }
 
-.author-ticket h3{
-  margin-right: 23px;
+.author-ticket a{
+  font-size: 12px;
+  color: #021503;
+  border-bottom: 1px solid #021503;
 }
 
 .author-ticket p{
   font-size: 16px;
 }
 
+.author-ticket h3{
+  font-size: 40px;
+}
+
 .author-ticket img{
   border-radius: 400px;
+  margin-right: 23px;
 }
 
 .author-ticket .author-ticket__img-container{
