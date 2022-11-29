@@ -198,15 +198,11 @@ h1{
   background-color: #C35748;
 }
 
-#featured-artists:has(.artist--nathaniel-benjamin:hover){
-  background-color: #C35748;
-}
-
 #featured-artists:has(.artist--hannah-eddy:hover){
   background-color: #C0B7D5;
 } 
 
-#featured-artists:has(.artist--nathaniel-benjamin:hover) .artist-featured-artwork img{
+#featured-artists section:hover .artist-featured-artwork img{
   margin-right: -200px;
 }
 
