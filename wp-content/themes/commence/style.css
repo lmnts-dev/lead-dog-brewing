@@ -240,12 +240,15 @@ h1{
 
 .author-ticket img{
   border-radius: 400px;
-  margin-right: 23px;
 }
 
 .author-ticket .author-ticket__img-container{
-  width: 135px;
-  height: 141px;
+  margin-right: 23px;
+  flex: 1;
+}
+
+.author-ticket .author-content{
+  flex: 3;
 }
 
 
