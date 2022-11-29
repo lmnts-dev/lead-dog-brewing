@@ -214,6 +214,16 @@ h1{
   margin-left: -200px;
 }
 
+.author-ticket{
+  display: flex;
+  align-items: center;
+}
+
+.author-ticket .author-ticket__img-container{
+  width: 135px;
+  height: 141px;
+}
+
 
 /*EVENTS*/
 
