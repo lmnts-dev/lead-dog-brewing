@@ -206,9 +206,7 @@ h1{
   background-color: #C0B7D5;
 } 
 
-#featured-artists:has(.artist--nathaniel-benjamin:hover) .artist-featured-artwork{
-  position: absolute;
-  right: 0;
+#featured-artists:has(.artist--nathaniel-benjamin:hover) .artist-featured-artwork img{
   margin-right: -200px;
 }
 
