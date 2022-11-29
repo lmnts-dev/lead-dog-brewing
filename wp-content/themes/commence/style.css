@@ -211,7 +211,7 @@ h1{
 }
 
 #featured-artists .artist--second:hover .artist-artwork img{
-  margin-right: -200px;
+  margin-left: -200px;
 }
 
 
