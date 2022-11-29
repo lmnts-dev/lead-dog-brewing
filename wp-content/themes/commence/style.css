@@ -194,18 +194,24 @@ h1{
 
 /*FEATURED ARTISTS SECTION*/
 
-#featured-artists:has(.artist--nathaniel-benjamin:hover){
+#featured-artists:has(.artist--first:hover){
   background-color: #C35748;
 }
 
-#featured-artists:has(.artist--hannah-eddy:hover){
+#featured-artists:has(.artist--second:hover){
   background-color: #C0B7D5;
 } 
 
-#featured-artists section:hover .artist-artwork img{
+#featured-artists .artist--first:hover .artist-artwork img{
   margin-right: -200px;
   transition: all 1s;
 }
+
+#featured-artists .artist--secomd:hover .artist-artwork img{
+  margin-right: -200px;
+  transition: all 1s;
+}
+
 
 /*EVENTS*/
 
