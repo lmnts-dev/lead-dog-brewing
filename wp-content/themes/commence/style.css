@@ -217,14 +217,24 @@ h1{
   height: fit-content;
 }
 
-.artist--first .elementor-widget-container{
+.artist--first .elementor-absolute .elementor-widget-container{
   -webkit-mask-image: url(/wp-content/uploads/2022/11/ticket.svg);
   mask-image: url(/wp-content/uploads/2022/11/ticket.svg);
   background-color: #F4EBDA;
 }
 
-#featured-artists .artist--first:hover .elementor-widget-container{
+#featured-artists .artist--first:hover .elementor-absolute .elementor-widget-container{
     background-color: #C35748;
+}
+
+.artist--second .elementor-absolute .elementor-widget-container{
+  -webkit-mask-image: url(/wp-content/uploads/2022/11/ticket-2.svg);
+  mask-image: url(/wp-content/uploads/2022/11/ticket-2.svg);
+  background-color: #F4EBDA;
+}
+
+#featured-artists .artist--second:hover .elementor-absolute .elementor-widget-container{
+    background-color: #C0B7D5;
 }
 
 .author-ticket{
