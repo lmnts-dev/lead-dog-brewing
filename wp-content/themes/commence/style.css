@@ -202,7 +202,7 @@ h1{
   background-color: #C0B7D5;
 } 
 
-#featured-artists section:hover img{
+#featured-artists section:hover .artist-artwork{
   margin-right: -200px;
 }
 
