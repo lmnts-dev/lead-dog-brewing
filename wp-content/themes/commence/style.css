@@ -970,3 +970,19 @@ h1{
  }
 
 
+ /*MEDIA QUERIES*/
+@media (max-width: 768px)
+{
+ h1, h2{
+  font-size: 36px!important;
+ }
+
+ h3{
+  font-size: 28px!important;
+ }
+
+  section{
+    padding: 35px 25px;
+  }
+}
+
