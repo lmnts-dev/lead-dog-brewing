@@ -291,8 +291,8 @@ h1{
 }
 
 .tribe-events-calendar-list__event-featured-image{
-  height: 304px!important;
-  width: 276px!important;
+  height: 304px;
+  width: 276px;
   object-fit: cover!important;
 }
 
@@ -1016,5 +1016,10 @@ h1{
    .value-column::before{
     height: 55%;
    }
+
+   .tribe-events .tribe-events-calendar-list__event-date-tag-datetime {
+    padding-right: 20px;
+   }
+
 }
 
