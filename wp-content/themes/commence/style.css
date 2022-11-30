@@ -1021,11 +1021,19 @@ h1{
   }
 
   .tribe-events-calendar-list__event{
-    padding-left: 20px;
+    padding-left: 20px!important;
   }
 
   .tribe-events-calendar-list__event-featured-image{
     width: auto;
+  }
+
+  .tribe-events-c-top-bar__datepicker-button{
+    padding-left: 0!important;
+  }
+
+  .tribe-events-c-events-bar__search-button{
+    background-color: transparent;
   }
 }
 
