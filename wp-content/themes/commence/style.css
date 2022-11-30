@@ -986,16 +986,15 @@ h1{
     }
  }
 
-@media (max-width: 768px)
-{
- h1, h2{
-  font-size: 36px!important;
-  line-height: 41px!important;
- }
+@media (max-width: 768px){
+  h1, h2{
+    font-size: 36px!important;
+    line-height: 41px!important;
+  }
 
- h3{
+  h3{
   font-size: 28px!important;
- }
+  }
 
   section{
     padding: 35px 25px;
@@ -1013,13 +1012,20 @@ h1{
     flex-wrap: wrap;
   }
 
-   .value-column::before{
+  .value-column::before{
     height: 55%;
-   }
+  }
 
-   .tribe-events .tribe-events-calendar-list__event-date-tag-datetime {
+  .tribe-events .tribe-events-calendar-list__event-date-tag-datetime {
     padding-right: 20px;
-   }
+  }
 
+  .tribe-events-calendar-list__event{
+    padding-left: 20px;
+  }
+
+  .tribe-events-calendar-list__event-featured-image{
+    width: auto;
+  }
 }
 
