@@ -15,10 +15,6 @@ section{
   padding: 96px 36px;
 }
 
-h1{
-  line-height: 67.2px!important;
-}
-
 
 #keep-in-touch .elementor-form-fields-wrapper{
   display: flex;
@@ -1030,6 +1026,10 @@ h1{
   .artist-single--featured .content .elementor-widget-wrap:before {
     left: 5%;
     top: 40%;
+  }
+
+  .artist-single--featured .location {
+    margin-bottom: 27px;
   }
 }
 
