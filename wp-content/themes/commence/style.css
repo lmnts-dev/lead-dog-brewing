@@ -1026,5 +1026,10 @@ h1{
   .tribe-events-c-events-bar__search-button{
     background-color: transparent;
   }
+
+  .artist-single--featured .content .elementor-widget-wrap:before {
+    left: 5%;
+    top: 40%;
+  }
 }
 
