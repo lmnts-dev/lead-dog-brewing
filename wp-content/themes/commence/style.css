@@ -987,15 +987,6 @@ h1{
  }
 
 @media (max-width: 768px){
-  h1, h2{
-    font-size: 36px!important;
-    line-height: 41px!important;
-  }
-
-  h3{
-  font-size: 28px!important;
-  }
-
   section{
     padding: 35px 25px;
   }
