@@ -975,7 +975,7 @@ h1{
 {
  h1, h2{
   font-size: 36px!important;
-  line-height: 41px;
+  line-height: 41px!important;
  }
 
  h3{
@@ -994,7 +994,7 @@ h1{
     top: 15px;
   }
 
-  #keep-in-touch{
+ #keep-in-touch .elementor-form-fields-wrapper{
     flex-wrap: wrap;
   }
 }
