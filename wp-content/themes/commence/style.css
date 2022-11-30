@@ -969,6 +969,12 @@ h1{
   margin-bottom: 16px!important; 
  }
 
+ .value-column::before{
+  content: '';
+  border-left: 1.5px solid #DB4233;
+  height: 60%;
+ }
+
 
  /*MEDIA QUERIES*/
 @media (max-width: 768px)
