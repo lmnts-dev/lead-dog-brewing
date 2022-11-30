@@ -975,6 +975,7 @@ h1{
 {
  h1, h2{
   font-size: 36px!important;
+  line-height: 41px;
  }
 
  h3{
@@ -983,6 +984,18 @@ h1{
 
   section{
     padding: 35px 25px;
+  }
+
+  #faqs-accordions .ue_heading_title{
+    max-width: 75%;
+  }
+
+  #faqs-accordions .ue_accordion_icon{
+    top: 15px;
+  }
+
+  #keep-in-touch{
+    flex-wrap: wrap;
   }
 }
 
