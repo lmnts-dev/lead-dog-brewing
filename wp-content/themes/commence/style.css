@@ -1000,14 +1000,6 @@ section{
     grid-template-columns: repeat(2,50%)!important;
   }
 
-  #upcoming-events-carousel .ect-carousel-image{
-    height: auto!important;
-  }
-
-  .ect-carousel-event{
-    width: 300px!important;
-  }
-
   .ect-carousel-image{
     width: 300px!important;
     height: 300px!important;
@@ -1137,6 +1129,14 @@ section{
 
   .frm_form_title{
     font-size: 40px!important;
+  }
+
+  #ect-carousel-wrapper .slick-arrow.ctl-slick-prev {
+    left: -28px;
+  } 
+
+  #upcoming-events-carousel .ect-icon-left:before {
+    left: 0;
   }
 }
 
