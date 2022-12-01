@@ -601,17 +601,13 @@ section{
 
 /*FORMS*/
 .frm_form_title{
-  line-height: 67.2px!important;
+  line-height: 1.15em!important;
 }
 
 #contact-forms-container .frm_add_form_row, #contact-forms-container .frm_remove_form_row{
   background-color: transparent!important;
   border: none!important;
   padding: 5px 20px!important;
-}
-
-.frm_form_title{
-	line-height: 67.2px;
 }
 
 *{
@@ -982,31 +978,35 @@ section{
 
  /*MEDIA QUERIES*/
  @media (max-width: 1025px){
-    .theplus-tabs-wrapper{
-      flex-direction: column;
-    }
+  .theplus-tabs-wrapper{
+    flex-direction: column;
+  }
 
-    .theplus-tabs-wrapper .theplus-tabs-nav-wrapper{
-      width: 100%!important;
-      margin-bottom: 35px;
-    }
+  .theplus-tabs-wrapper .theplus-tabs-nav-wrapper{
+    width: 100%!important;
+    margin-bottom: 35px;
+  }
 
-    .theplus-tabs-content-wrapper{
-      padding-left: 20px!important;
-    }
+  .theplus-tabs-content-wrapper{
+    padding-left: 20px!important;
+  }
 
-    #contact-info{
-      position: relative;
-      top: 0;
-    }
+  #contact-info{
+    position: relative;
+    top: 0;
+  }
 
-    .elementor-tab-title{
-      padding-right: 0!important;
-    }
+  .elementor-tab-title{
+    padding-right: 0!important;
+  }
 
-    .frm_form_title{
-      font-size: 40px!important;
-    }
+  .frm_form_title{
+    font-size: 40px!important;
+  }
+
+  #featured-artists .elementor-absolute{
+    position: relative!important;
+  }
  }
 
 @media (max-width: 768px){
@@ -1070,6 +1070,10 @@ section{
 
   .elementor-nav-menu__text-align-center{
     text-align: center!important;
+  }
+
+  .frm_form_title{
+    font-size: 40px!important;
   }
 }
 
