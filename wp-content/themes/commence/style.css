@@ -996,6 +996,14 @@ section{
     top: 0;
   }
 
+  #featured-artists .artist--first:hover .artist-artwork img{
+    margin-right: 0;
+  }
+
+  #featured-artists .artist--second:hover .artist-artwork img{
+    margin-left: 0;
+  }
+
   .elementor-tab-title{
     padding-right: 0!important;
   }
