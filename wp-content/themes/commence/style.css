@@ -604,6 +604,12 @@ section{
   line-height: 67.2px!important;
 }
 
+#contact-forms-container .frm_add_form_row, #contact-forms-container .frm_remove_form_row{
+  background-color: transparent!important;
+  border: none!important;
+  padding: 5px 20px!important;
+}
+
 .frm_form_title{
 	line-height: 67.2px;
 }
@@ -996,6 +1002,10 @@ section{
 
     .elementor-tab-title{
       padding-right: 0!important;
+    }
+
+    .frm_form_title{
+      font-size: 40px!important;
     }
  }
 
