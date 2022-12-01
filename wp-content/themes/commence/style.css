@@ -1028,6 +1028,18 @@ section{
   #featured-artists .elementor-absolute{
     position: relative!important;
   }
+
+  .author-content{
+    text-align: center;
+  }
+
+  .artist--second  .elementor-container{
+    flex-direction: column-reverse;
+  }
+
+  .author-ticket .author-ticket__img-container{
+    margin-right: 0;
+  }
  }
 
 @media (max-width: 768px){
