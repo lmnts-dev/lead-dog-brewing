@@ -997,20 +997,20 @@ section{
   }
 
   #upcoming-events-carousel .ect-carousel-event-area{
-    grid-template-columns: repeat(2,50%);
+    grid-template-columns: repeat(2,50%)!important;
   }
 
   #upcoming-events-carousel .ect-carousel-image{
-    height: auto;
+    height: auto!important;
   }
 
   .ect-carousel-event{
-    width: 300px;
+    width: 300px!important;
   }
 
   .ect-carousel-image{
-    width: 300px;
-    height: 300px;
+    width: 300px!important;
+    height: 300px!important;
   }
 
   .author-ticket{
