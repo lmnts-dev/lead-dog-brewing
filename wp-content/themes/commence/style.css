@@ -1018,6 +1018,7 @@ section{
   .artist--first .elementor-absolute .elementor-widget-container{
     mask-image: none;
     -webkit-mask-image: none;
+    background-color: transparent!important;
   }
 
   .ect-events-carousel{
@@ -1142,6 +1143,10 @@ section{
 
   #upcoming-events-carousel .ect-icon-left:before {
     left: 0;
+  }
+
+  .n2-ss-control-bullet{
+    display: none;
   }
 }
 
