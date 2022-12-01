@@ -1031,5 +1031,22 @@ section{
   .artist-single--featured .location {
     margin-bottom: 27px;
   }
+
+  .tribe-events-c-view-selector__button{
+    background-color: transparent!important;
+  }
+
+  .elementor-heading-title{
+    text-align: center!important;
+  }
+
+  .tribe-events-calendar-list__event .tribe-events-calendar-list__event-title{
+    font-size: 36px;
+    line-height: 1.15em;
+  }
+
+  .elementor-nav-menu__text-align-center{
+    text-align: center!important;
+  }
 }
 
