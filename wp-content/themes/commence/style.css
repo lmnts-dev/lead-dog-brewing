@@ -980,6 +980,23 @@ section{
       position: absolute;
       top: 250px;
     }
+
+    .theplus-tabs-wrapper{
+      flex-direction: column;
+    }
+
+    .theplus-tabs-wrapper .theplus-tabs-nav-wrapper{
+      width: 100%;
+      margin-bottom: 35px;
+    }
+
+    .theplus-tabs-content-wrapper{
+      padding-left: 20px;
+    }
+
+    #contact-info{
+      position: relative;
+    }
  }
 
 @media (max-width: 768px){
