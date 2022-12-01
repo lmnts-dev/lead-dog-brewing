@@ -976,26 +976,26 @@ section{
 
  /*MEDIA QUERIES*/
  @media (max-width: 1025px){
-    #contact-info{
-      position: absolute;
-      top: 250px;
-    }
-
     .theplus-tabs-wrapper{
       flex-direction: column;
     }
 
     .theplus-tabs-wrapper .theplus-tabs-nav-wrapper{
-      width: 100%;
+      width: 100%!important;
       margin-bottom: 35px;
     }
 
     .theplus-tabs-content-wrapper{
-      padding-left: 20px;
+      padding-left: 20px!important;
     }
 
     #contact-info{
       position: relative;
+      top: 0;
+    }
+
+    .elementor-tab-title{
+      padding-right: 0!important;
     }
  }
 
