@@ -996,6 +996,19 @@ section{
     top: 0;
   }
 
+  .author-ticket{
+    flex-direction: column;
+  }
+
+  .artist--second .elementor-absolute .elementor-widget-container{
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  .author-ticket__img-container{
+    width: 150px;
+  }
+
   #featured-artists .artist--first:hover .artist-artwork img{
     margin-right: 0;
   }
