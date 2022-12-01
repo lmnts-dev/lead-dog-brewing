@@ -598,6 +598,10 @@ section{
   font-weight: 500!Important;
 }
 
+#ect-carousel-wrapper .ect-carousel-image{
+  background-color: #F2E9D8;
+}
+
 
 /*FORMS*/
 .frm_form_title{
@@ -980,6 +984,10 @@ section{
  @media (max-width: 1025px){
   .theplus-tabs-wrapper{
     flex-direction: column;
+  }
+
+  .single-event-carousel h2{
+    position: relative;
   }
 
   .theplus-tabs-wrapper .theplus-tabs-nav-wrapper{
