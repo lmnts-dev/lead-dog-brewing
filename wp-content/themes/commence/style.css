@@ -335,7 +335,7 @@ section{
 
 .tribe-events-c-top-bar__datepicker-button{
   font-size: 24px;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
 }
 
 .tribe-events-view--list .tribe-events-c-subscribe-dropdown__container{
@@ -354,7 +354,7 @@ section{
   font-size: 18px!important;
   font-weight: 500!important;
   color: #1C241D80!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
 }
 
 .tribe-events-calendar-list__event-date-tag-daynum{
@@ -372,7 +372,7 @@ section{
 .tribe-events-calendar-list__event-datetime, .tribe-events-calendar-list__event-description, .tribe-events-calendar-list__month-separator-text{
   font-size: 18px!important;
   font-weight: 500!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
 }
 
 .tribe-events-meta-group{
@@ -415,7 +415,7 @@ section{
 .tribe-events-c-view-selector__list-item-text{
   font-size: 24px!important;
   font-weight: 500!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
   text-transform:uppercase!important;
   color: #1C241D80;
 }
@@ -444,7 +444,7 @@ section{
 .tribe-events-c-search__button{
   border-radius: 0!important;
   font-size: 24px!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
   font-weight: 500!important;
   padding: 5px 20px!important;
 }
@@ -471,7 +471,7 @@ section{
 .tribe-events-event-image, .tribe-events-event-meta, .tribe-block__venue, .type-tribe_events p, .tribe-events-c-subscribe-dropdown__container{
   max-width: 700px!important;
   margin: 0 auto!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
 }
 
 .tribe-events-start-date-label, .tribe-events-start-time-label, .tribe-events-event-cost-label{
@@ -494,7 +494,7 @@ section{
 .tribe-events-back a{
   color: #112213!important;
   font-size: 24px;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
   text-transform: uppercase;
   margin-bottom: 32px;
   font-weight: 500!important;
@@ -505,7 +505,7 @@ section{
 }
 
 .ect-venue-details a{
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
 }
 
 .tribe-events-event-image {
@@ -514,7 +514,7 @@ section{
 
 .tribe-events-single-section-title{
   font-size: 24px!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
   font-weight: 500!important;
 }
 
@@ -529,7 +529,7 @@ section{
 .tribe-events-schedule h2{
   font-size: 18px!important;
   margin: 0!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
 }
 
 .tribe-events-cost{
@@ -540,7 +540,7 @@ section{
   background-color: transparent!important;
   color:#000000!important;
   font-size: 18px!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
   font-weight: 500!important;
   text-transform: capitalize!important;
   padding:0!important;
@@ -643,7 +643,7 @@ section{
   margin-bottom: 14px!important;
   text-transform: uppercase!important;
   color: #F4EBDA!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
 }
 
 #contact-forms-container #frm_add_form_row, #contact-forms-container #frm_remove_form_row{
@@ -672,14 +672,14 @@ section{
 
 .ect-event-url{
   color: #112213!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
   font-size: 24px!important;
   font-weight: 500!important;
 }
 
 .ect-event-content p{
   font-size: 18px!important;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
   color: #112213!important;
   font-weight: 500!important;
 }
@@ -724,7 +724,7 @@ section{
   grid-column: 1 / -1;
   font-size: 24px;
   font-weight: 500;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
   text-transform: uppercase;
 }
 
@@ -739,7 +739,7 @@ section{
 #upcoming-events-carousel .ect-carousel-description{
   order: 3;
   grid-column: 1 / -1;
-  font-family: 'roc-grotesk'!important;
+  font-family: 'roc-grotesk-condensed'!important;
   font-size: 18px;
   font-weight: 500;
   border-bottom: 1px solid black;
@@ -747,12 +747,12 @@ section{
 }
 
 #upcoming-events-carousel .ect-carousel-title h4 a{
-  font-family: "roc-grotesk", Sans-serif!important;
+  font-family: "roc-grotesk-condensed", Sans-serif!important;
 }
 
 #upcoming-events-carousel .ect-carousel-description .ect-event-content p{
   margin-bottom: 24px;
-  font-family: "roc-grotesk", Sans-serif!important;
+  font-family: "roc-grotesk-condensed", Sans-serif!important;
   font-size: 18px;
   color: #00445e, impor !important;;
 }
@@ -764,7 +764,7 @@ section{
 
 #upcoming-events-carousel .ect-address, .tribe-organizer, .tribe-venue, .tribe-venue-location, .tribe-events-start-date, .tribe-events-start-time{
   font-weight: 500;
-  font-family: "roc-grotesk", Sans-serif;
+  font-family: "roc-grotesk-condensed", Sans-serif;
   font-size: 18px!important;
   color: #112213!important;
 }
@@ -818,7 +818,7 @@ section{
   order: 5;
   font-size: 18px!important;
   padding-top: 8px;
-  font-family: "roc-grotesk", Sans-serif!important;
+  font-family: "roc-grotesk-condensed", Sans-serif!important;
   color: #112213!important;
   font-weight: 500!important;
 }
@@ -935,7 +935,7 @@ section{
  }
 
  .ppw-post-password-container .ppw-ppf-desc p{
-    font-family: 'roc-grotesk'!important;
+    font-family: 'roc-grotesk-condensed'!important;
     font-size: 16px;
     justify-content: center!important;
  }
