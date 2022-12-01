@@ -1012,6 +1012,7 @@ section{
   .artist--second .elementor-absolute .elementor-widget-container{
     mask-image: none;
     -webkit-mask-image: none;
+    background-color: transparent!important;
   }
 
   .artist--first .elementor-absolute .elementor-widget-container{
@@ -1060,6 +1061,10 @@ section{
   }
 
   .author-ticket .author-ticket__img-container{
+    margin-right: 0;
+  }
+
+  #keep-in-touch .elementor-form-fields-wrapper div{
     margin-right: 0;
   }
  }
