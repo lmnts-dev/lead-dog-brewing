@@ -659,7 +659,7 @@ section{
 /*UPCOMING EVENTS CAROUSEL*/
 #upcoming-events-carousel .ect-carousel-event-area{
   display: grid!important;
-  grid-template-columns: repeat(2,1fr)!important;
+  grid-template-columns: repeat(2,1fr);
   background: transparent!important;
   box-shadow: none!important;
   border: none!important;
@@ -996,6 +996,23 @@ section{
     top: 0;
   }
 
+  #upcoming-events-carousel .ect-carousel-event-area{
+    grid-template-columns: repeat(2,50%);
+  }
+
+  #upcoming-events-carousel .ect-carousel-image{
+    height: auto;
+  }
+
+  .ect-carousel-event{
+    width: 300px;
+  }
+
+  .ect-carousel-image{
+    width: 300px;
+    height: 300px;
+  }
+
   .author-ticket{
     flex-direction: column;
   }
@@ -1005,19 +1022,18 @@ section{
     -webkit-mask-image: none;
   }
 
-.artist--first .elementor-absolute .elementor-widget-container{
-  mask-image: none;
-  -webkit-mask-image: none;
-}
-
-  /* #featured-artists .artist--first:hover .elementor-absolute .elementor-widget-container{
-    background-color: #C35748;
+  .artist--first .elementor-absolute .elementor-widget-container{
+    mask-image: none;
+    -webkit-mask-image: none;
   }
 
+  .ect-events-carousel{
+    padding:0;
+  }
 
-#featured-artists .artist--second:hover .elementor-absolute .elementor-widget-container{
-    background-color: #C0B7D5;
-} */
+  .ect-carousel-date, .ect-carousel-venue{
+    grid-column: 1 / -1;
+  }
 
   .author-ticket__img-container{
     width: 150px;
