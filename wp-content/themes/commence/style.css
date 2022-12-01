@@ -498,6 +498,7 @@ section{
   text-transform: uppercase;
   margin-bottom: 32px;
   font-weight: 500!important;
+  display: flex;
 }
 
 .tribe-events-schedule{
@@ -1032,6 +1033,7 @@ section{
   .ect-events-carousel{
     padding:0;
   }
+  
 
   .ect-carousel-date, .ect-carousel-venue{
     grid-column: 1 / -1;
