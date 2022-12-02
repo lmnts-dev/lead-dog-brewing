@@ -1104,6 +1104,10 @@ section{
   #keep-in-touch .elementor-form-fields-wrapper div{
     margin-right: 0;
   }
+
+  .owl-dots{
+    display: none;
+  }
  }
 
 @media (max-width: 768px){
