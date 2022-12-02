@@ -1108,6 +1108,10 @@ section{
   .owl-dots{
     display: none;
   }
+
+  .frm_form_title{
+    font-size: 50px!important;
+  }
  }
 
 @media (max-width: 768px){
@@ -1121,6 +1125,10 @@ section{
 
   #faqs-accordions .ue_accordion_icon{
     top: 15px;
+  }
+
+  .frm_form_title{
+    font-size: 40px!important;
   }
 
  #keep-in-touch .elementor-form-fields-wrapper{
@@ -1151,9 +1159,8 @@ section{
     background-color: transparent;
   }
 
-  .artist-single--featured .content .elementor-widget-wrap:before {
-    left: 5%;
-    top: 40%;
+   .artist-single--featured .content .elementor-widget-wrap:before {
+    left: 40px;
   }
 
   .artist-single--featured .location {
