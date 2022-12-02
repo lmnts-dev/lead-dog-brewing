@@ -1135,6 +1135,8 @@ section{
     font-size: 40px!important;
   }
 
+  
+
  #keep-in-touch .elementor-form-fields-wrapper{
     flex-wrap: wrap;
   }
@@ -1160,7 +1162,7 @@ section{
   }
 
   .tribe-events-c-events-bar__search-button{
-    background-color: transparent;
+    background-color: transparent!important;
   }
 
    .artist-single--featured .content .elementor-widget-wrap:before {
