@@ -1109,7 +1109,7 @@ section{
     margin-right: 0;
   }
 
-  .owl-dots{
+  #artist-slider .owl-dots{
     display: none;
   }
 
