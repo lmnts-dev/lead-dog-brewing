@@ -15,7 +15,6 @@ section{
   padding: 96px 36px;
 }
 
-
 #keep-in-touch .elementor-form-fields-wrapper{
   display: flex;
   flex-wrap: nowrap;
@@ -27,6 +26,10 @@ section{
 
 #btn--subscribe{
   text-transform: capitalize;
+}
+
+.loop-single .elementor-widget-heading, .loop-single .elementor-widget-text-editor{
+  margin-bottom: 5px;
 }
 
 /*HOME SLIDER*/
