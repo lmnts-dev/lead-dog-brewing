@@ -1008,10 +1008,6 @@ section{
     position: relative;
   }
 
-  #upcoming-events .slick-arrow{
-    position: relative!important;
-  }
-
   .theplus-tabs-wrapper .theplus-tabs-nav-wrapper{
     width: 100%!important;
     margin-bottom: 35px;
@@ -1127,6 +1123,7 @@ section{
 
   #ect-carousel-wrapper .slick-arrow.ctl-slick-next{
     right: -28px!important;
+    left: auto!important;
   }
  }
 
