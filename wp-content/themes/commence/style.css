@@ -696,10 +696,10 @@ section{
   font-weight: 500!important;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: -webkit-box;
-   -webkit-line-clamp: 2; /* number of lines to show */
-  line-clamp: 2; 
-   -webkit-box-orient: vertical;
+  display: -webkit-box!important;
+   -webkit-line-clamp: 2!important; /* number of lines to show */
+  line-clamp: 2!important; 
+   -webkit-box-orient: vertical!important;
 }
 
 #upcoming-events-carousel .ect-carousel{
@@ -1019,6 +1019,10 @@ section{
 
   .theplus-tabs-content-wrapper{
     padding-left: 20px!important;
+  }
+
+  .elementor-nav-menu{
+    padding-top: 25px;
   }
 
   #upcoming-events .elementor-widget-heading {
