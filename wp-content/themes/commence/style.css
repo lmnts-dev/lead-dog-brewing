@@ -715,7 +715,7 @@ section{
 #upcoming-events-carousel .ect-carousel .ctl-slick-next{
  position: absolute;
   top: 0;
-  left: 93%!important;
+  left: 93%;
 }
 
 #upcoming-events-carousel .ect-carousel-cost{
@@ -1118,9 +1118,15 @@ section{
   }
 
   #upcoming-events-carousel #ect-carousel-wrapper .slick-arrow {
-    position: absolute;
-    top: calc(50% - 18px);
-    left: -28px;
+    top: calc(50% - 18px)!important;
+  }
+
+  #ect-carousel-wrapper .slick-arrow.ctl-slick-prev{
+    left: -28px!important;
+  }
+
+  #ect-carousel-wrapper .slick-arrow.ctl-slick-next{
+    right: -28px!important;
   }
  }
 
