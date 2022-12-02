@@ -1116,6 +1116,12 @@ section{
   .frm_form_title{
     font-size: 50px!important;
   }
+
+  #upcoming-events-carousel #ect-carousel-wrapper .slick-arrow {
+    position: absolute;
+    top: calc(50% - 18px);
+    left: -28px;
+  }
  }
 
 @media (max-width: 768px){
