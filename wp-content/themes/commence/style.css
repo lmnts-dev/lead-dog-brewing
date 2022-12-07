@@ -39,6 +39,10 @@ section{
   height: 45vh;
 }
 
+.n2-ss-layer{
+  padding: 0!important;
+}
+
 .n2-bullet{
   transform: rotate(60deg) skewX(30deg) scale(1, .866)!important;
   border-radius: 0!important;
