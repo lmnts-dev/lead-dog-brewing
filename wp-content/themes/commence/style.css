@@ -43,6 +43,10 @@ section{
   padding: 0!important;
 }
 
+div#n2-ss-2 .n2-ss-slide-limiter{
+  max-width: 100%!important;
+}
+
 .n2-bullet{
   transform: rotate(60deg) skewX(30deg) scale(1, .866)!important;
   border-radius: 0!important;
