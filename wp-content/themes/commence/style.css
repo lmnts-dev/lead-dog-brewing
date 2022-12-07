@@ -12,7 +12,7 @@
 */
 
 section{
-  padding: 96px 36px;
+  padding: 96px 50px;
 }
 
 #keep-in-touch .elementor-form-fields-wrapper{
@@ -616,7 +616,8 @@ section{
   margin-left: 20px;
 }
 
-.frm_add_form_row, .frm_remove_form_row{
+
+#contact-forms-container .frm_add_form_row, #contact-forms-container .frm_remove_form_row{
   background-color: transparent!important;
   border: none!important;
   padding: 5px 20px!important;
