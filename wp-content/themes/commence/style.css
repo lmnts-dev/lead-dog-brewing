@@ -24,6 +24,10 @@ section{
   margin-right: 30px;
 }
 
+.elementor-widget-wrap {
+  padding: 10px 0;
+}
+
 #btn--subscribe{
   text-transform: capitalize;
 }
