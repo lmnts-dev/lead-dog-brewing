@@ -866,6 +866,39 @@ section{
   display: none!important;
 }
 
+/*NEWSLETTER FORM*/
+
+#frm_form_9_container .frm_form_field{
+	display: flex;
+	align-items: end;
+	margin-bottom: 0;
+}
+
+#frm_form_9_container .frm_style_newsletter.with_frm_style .frm_submit button {
+	text-align: left!important;
+	position: relative!important;
+}
+
+#frm_form_9_container .frm_style_newsletter.with_frm_style .frm_submit button:after {
+	content: url('/wp-content/uploads/2022/12/Arrow-1-1.svg');
+	position: absolute;
+	right: 22px!important;
+	transition: all .3s;
+}
+
+#frm_form_9_container .frm_style_newsletter.with_frm_style .frm_submit button:hover::after{
+	content: url('/wp-content/uploads/2022/12/black-arrow.svg');
+}
+
+#frm_form_9_container .frm_style_newsletter.with_frm_style.frm_inline_form .frm_submit button {
+	margin-left: 20px!important;
+	text-transform: capitalize!important;
+}
+
+#frm_form_9_container .frm_form_field{
+	margin-right: 25px!important;
+}
+
 /*FAQS*/
 
 #faqs-accordions .uc_ac_box{
@@ -1223,5 +1256,13 @@ section{
   .tribe-common-l-container{
     overflow: hidden!important;
   }
+
+  	#frm_form_9_container .frm_submit{
+		margin: 20px auto 0 auto!important;
+	}
+	
+	#frm_form_9_container .frm_style_newsletter.with_frm_style.frm_inline_form .frm_submit button {
+		margin-left: 0!important;
+	}
 }
 
