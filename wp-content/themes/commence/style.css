@@ -1037,6 +1037,13 @@ section{
 
 
  /*MEDIA QUERIES*/
+
+ @media (max-width: 1500px){
+  .n2-ss-layer-with-background{
+    padding: 0 50px;
+  }
+ }
+
  @media (max-width: 1025px){
   .theplus-tabs-wrapper{
     flex-direction: column;
@@ -1257,7 +1264,7 @@ section{
     overflow: hidden!important;
   }
 
-  	#frm_form_9_container .frm_submit{
+  #frm_form_9_container .frm_submit{
 		margin: 20px auto 0 auto!important;
 	}
 	
