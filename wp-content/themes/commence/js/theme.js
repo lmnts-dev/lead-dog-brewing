@@ -1,9 +1,9 @@
 
 //FOR THE EYEBALL ANIMATION
 window.onload = function () {
-	const container = document.querySelector(".blog .age-gate__wrapper");
+	const container = document.querySelector(".home .age-gate__wrapper");
   container.addEventListener("mousemove", (e) => {
-  const eyes = document.querySelectorAll(".blog .age-gate__additional-information p img:nth-child(2)");
+  const eyes = document.querySelectorAll(".home .age-gate__additional-information p img:nth-child(2)");
   [].forEach.call(eyes, function (eye) {
     let mouseX = eye.getBoundingClientRect().right;
     let mouseY = eye.getBoundingClientRect().top;
