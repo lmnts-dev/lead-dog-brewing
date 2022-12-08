@@ -1038,7 +1038,7 @@ section{
 
  /*MEDIA QUERIES*/
 
- @media (max-width: 1600px){
+ @media (max-width: 1500px){
   .n2-ss-layer-with-background{
     padding: 0 50px!important;
   }
@@ -1046,11 +1046,10 @@ section{
 
 
  @media (max-width: 1025px){
-
   .n2-ss-layer-with-background{
     padding: 35px 50px!important;
   }
-  
+
   .theplus-tabs-wrapper{
     flex-direction: column;
   }
