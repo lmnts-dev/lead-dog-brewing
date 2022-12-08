@@ -1046,7 +1046,7 @@ section{
 
   @media (max-width: 1500px){
     .n2-ss-layer-with-background{
-      padding: 35px!important;
+      padding: 35px 50px!important;
     }
   }
 
