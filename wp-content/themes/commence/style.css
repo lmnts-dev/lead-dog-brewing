@@ -36,6 +36,10 @@ section{
   margin-bottom: 5px;
 }
 
+#remove-link{
+  pointer-events: none!important;
+}
+
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
@@ -971,6 +975,14 @@ section{
   position: absolute;
   right: 160px;
   bottom: 51px;
+}
+
+.age-gate__additional-information img:nth-of-type(2){
+  position: absolute;
+  bottom: 55px;
+  width: 60px;
+  right: 20%;
+  bottom: 125px;
 }
 
 .age-gate__additional-information img:last-of-type{
