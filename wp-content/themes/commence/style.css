@@ -1040,9 +1040,15 @@ section{
 
  @media (max-width: 1500px){
   .n2-ss-layer-with-background{
-    padding: 0 50px;
+    padding: 0 50px!important;
   }
  }
+
+  @media (max-width: 1500px){
+    .n2-ss-layer-with-background{
+      padding: 35px!important;
+    }
+  }
 
  @media (max-width: 1025px){
   .theplus-tabs-wrapper{
@@ -1175,6 +1181,12 @@ section{
     left: auto!important;
   }
  }
+
+  @media (max-width: 851px){
+    .n2-ss-layer-with-background{
+      padding: 35 25px!important;
+    }
+  }
 
 @media (max-width: 768px){
   section{
