@@ -983,6 +983,7 @@ section{
   width: 60px;
   right: 20%;
   bottom: 125px;
+  transition: all .005s;
 }
 
 .age-gate__additional-information img:last-of-type{
