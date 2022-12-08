@@ -1038,16 +1038,15 @@ section{
 
  /*MEDIA QUERIES*/
 
- @media (max-width: 1500px){
+ @media (max-width: 1585px){
   .n2-ss-layer-with-background{
-    padding: 0 50px!important;
+    padding: 78px 50px 99px 50px!important;
   }
  }
 
-
  @media (max-width: 1025px){
   .n2-ss-layer-with-background{
-    padding: 35px 50px!important;
+    padding: 35px!important;
   }
 
   .theplus-tabs-wrapper{
@@ -1181,16 +1180,14 @@ section{
   }
  }
 
-  @media (max-width: 851px){
-    .n2-ss-layer-with-background{
-      padding: 35 25px!important;
-    }
-  }
-
 @media (max-width: 768px){
   section{
     padding: 35px 25px;
   }
+
+    .n2-ss-layer-with-background{
+      padding: 35 25px!important;
+    }
 
   #faqs-accordions .ue_heading_title{
     max-width: 75%;
