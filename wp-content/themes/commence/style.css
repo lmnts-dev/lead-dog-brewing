@@ -963,37 +963,37 @@ section{
 }
 
 .age-gate__headline{
-  font-size: 60px!important;
+  font-size: 60px;
   text-align: start!important;
-  line-height: 67.2px!important;
+  line-height: 1.15em;
   max-width: 500px!important;
   margin-top: 50px!important;
 }
 
 .age-gate__additional-information img:first-of-type{
-  width: 294px;
+  width: 25%;
   position: absolute;
-  right: 160px;
-  bottom: 51px;
+  right: 13%;
+  bottom: 9%;
 }
 
 .age-gate__additional-information img:nth-of-type(2){
   position: absolute;
-  bottom: 55px;
-  width: 60px;
+  bottom: 50px;
+  width: 5%;
   right: 20%;
-  bottom: 125px;
+  bottom: 22%;
   transition: all .005s;
 }
 
 .age-gate__additional-information img:last-of-type{
-  position: absolute;
+  /* position: absolute;
   bottom: 55px;
   left: 0;
   width: 1074px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
 }
 
 /*PASSWORD PROTECT*/
@@ -1057,9 +1057,31 @@ section{
   }
  }
 
+  @media (max-width: 1220px){
+    .age-gate__additional-information img:first-of-type{
+      right: 10%;
+    }
+
+    .age-gate__additional-information img:nth-of-type(2){
+      right: 17%;
+    }
+  }
+
  @media (max-width: 1025px){
   .n2-ss-layer-with-background{
     padding: 35px!important;
+  }
+
+  .age-gate__additional-information img:first-of-type{
+    right: 2%;
+  }
+
+  .age-gate__additional-information img:nth-of-type(2){
+    right: 9%;
+  }
+
+  .age-gate__form{
+    padding: 225px 50px;
   }
 
   .theplus-tabs-wrapper{
@@ -1198,9 +1220,9 @@ section{
     padding: 35px 25px;
   }
 
-    .n2-ss-layer-with-background{
-      padding: 35 25px!important;
-    }
+  .n2-ss-layer-with-background{
+    padding: 35 25px!important;
+  }
 
   #faqs-accordions .ue_heading_title{
     max-width: 75%;
@@ -1292,5 +1314,9 @@ section{
 	#frm_form_9_container .frm_style_newsletter.with_frm_style.frm_inline_form .frm_submit button {
 		margin-left: 0!important;
 	}
+
+  .age-gate__headline{
+    font-size: 40px;
+  }
 }
 
