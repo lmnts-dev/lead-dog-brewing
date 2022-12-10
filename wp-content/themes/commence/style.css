@@ -291,6 +291,11 @@ section{
   bottom: 16px!important;
 }
 
+.tribe-events-notices{
+  max-width: 1200px!important;
+  margin: 0 auto 20px auto!important;
+}
+
 .tribe-events-c-top-bar__today-button {
   font-size: 14px!important;
 }
