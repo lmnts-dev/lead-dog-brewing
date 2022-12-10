@@ -688,6 +688,16 @@ section{
 #contact-info{
   position: absolute;
   top: 250px;
+  max-width: 33%;
+}
+
+#contact-info .elementor-col-33:not(:last-child){
+  width:50%!important;
+}
+
+/*MERCH*/
+#uc_ue_buttons_post_filter_elementor13082{
+
 }
 
 /*UPCOMING EVENTS CAROUSEL*/
