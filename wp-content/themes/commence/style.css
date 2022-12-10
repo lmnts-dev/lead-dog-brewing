@@ -695,6 +695,10 @@ section{
   width:50%!important;
 }
 
+#contact-info .elementor-col-33:last-child{
+  display: none!important;
+}
+
 /*MERCH*/
 #uc_ue_buttons_post_filter_elementor13082{
 
