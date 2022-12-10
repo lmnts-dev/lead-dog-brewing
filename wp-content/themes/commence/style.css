@@ -281,6 +281,9 @@ section{
   flex: 3;
 }
 
+.ug-thumb-overlay{
+  border: none!important;
+}
 
 /*EVENTS*/
 
