@@ -1090,6 +1090,16 @@ section{
     }
   }
 
+@media (max-width: 1050px){
+  #contact-info{
+    position: relative;
+    top: 0;
+    max-width: 50%!important;
+    margin: 35px auto 0 auto;
+    text-align: center;
+  }
+}
+
  @media (max-width: 1025px){
   .n2-ss-layer-with-background{
     padding: 35px!important;
@@ -1135,11 +1145,6 @@ section{
   #upcoming-events .elementor-widget-heading {
     position: relative;
     top: 0!important;
-  }
-
-  #contact-info{
-    position: relative;
-    top: 0;
   }
 
   #upcoming-events-carousel .ect-carousel-event-area{
@@ -1259,7 +1264,13 @@ section{
     font-size: 40px!important;
   }
 
-  
+  #contact-info .elementor-container{
+    flex-direction: column;
+  }
+
+  #contact-info .elementor-container .elementor-col-33{
+    width: 100%!important;
+  }
 
  #keep-in-touch .elementor-form-fields-wrapper{
     flex-wrap: wrap;
