@@ -618,6 +618,15 @@ section{
   background-color: #F2E9D8;
 }
 
+/*BEER SINGLE*/
+
+#beer-categories{
+    pointer-events: none;
+}
+
+#beer-categories .elementor-heading-title a:first-child{
+    display:none;
+}
 
 /*FORMS*/
 .frm_form_title{
