@@ -112,6 +112,10 @@ section{
   top: 60%;
 }
 
+#artist-slider .owl-dot:first-of-type{
+  margin-top:3px!important;
+}
+
 #artist-title{
   margin-bottom: 0!important;
 }
