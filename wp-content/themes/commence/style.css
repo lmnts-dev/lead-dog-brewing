@@ -1238,6 +1238,10 @@ section{
     display: none;
   }
 
+  #artist-title{
+    margin-bottom: 0!important;
+  }
+
   .frm_form_title{
     font-size: 50px!important;
   }
