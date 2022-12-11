@@ -217,7 +217,7 @@ section{
 
 #beer-carousel .ue-carousel-item .elementor-heading-title a:hover{
   text-decoration: underline;
-  color: #C35748;
+  color: #DB4233;
 }
 
 #beer-carousel .fa-arrow-left:before{
@@ -239,7 +239,7 @@ section{
 /*FEATURED ARTISTS SECTION*/
 
 #featured-artists:has(.artist--first:hover){
-  background-color: #C35748;
+  background-color: #DB4233;
 }
 
 #featured-artists:has(.artist--second:hover){
@@ -268,7 +268,7 @@ section{
 }
 
 #featured-artists .artist--first:hover .elementor-absolute .elementor-widget-container{
-    background-color: #C35748;
+    background-color: #DB4233;
 }
 
 .artist--second .elementor-absolute .elementor-widget-container{
@@ -1429,6 +1429,11 @@ abbr[title]{
 
   .frm_form_title{
     font-size: 40px!important;
+  }
+
+  .owl-prev, .owl-next{
+    bottom: 0;
+    top: auto;
   }
 
   #ect-carousel-wrapper .slick-arrow.ctl-slick-prev {
