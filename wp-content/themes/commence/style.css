@@ -215,6 +215,11 @@ section{
   transform: rotate(45deg);
 }
 
+#beer-carousel .ue-carousel-item .elementor-heading-title a:hover{
+  text-decoration: underline;
+  color: #C35748;
+}
+
 #beer-carousel .fa-arrow-left:before{
   content: "";
   position: absolute;
@@ -290,12 +295,22 @@ section{
   font-weight: 500!important;
 }
 
+.author-ticket a:hover{
+  color: #F4EBDA;
+
+}
+
 .author-ticket p{
   font-size: 16px;
 }
 
 .author-ticket h3{
   font-size: 40px;
+}
+
+.author-ticket h4{
+  font-size: 18px;
+  font-family: 'roc-grotesk'!important;
 }
 
 .author-ticket img{
