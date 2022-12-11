@@ -42,7 +42,7 @@ section{
 
 #btn--background{
   background-image: linear-gradient(#F4EBDA,#F4EBDA);
-  background-size: 100% 2px;
+  background-size: 100% 1px;
   background-repeat: no-repeat;
   background-position: 100% 100%;
   will-change: background;
@@ -355,6 +355,10 @@ section{
 
 .tribe-events-calendar-list__event-venue-title::after{
   content: "·";
+}
+
+.tribe-events-event-meta a, .tribe-events-event-meta a:visited{
+  color: #CD753C!important;
 }
 
 .tribe-common-c-svgicon{
