@@ -113,7 +113,7 @@ section{
 }
 
 #artist-slider .owl-dot:first-of-type{
-  margin-top:3px!important;
+  margin-top:5px!important;
 }
 
 #artist-title{
@@ -638,6 +638,10 @@ section{
 
 #beer-categories .elementor-heading-title a:first-child{
     display:none;
+}
+
+#loop-beer-title a:hover{
+  color:#DB4233!important;
 }
 
 /*FORMS*/
