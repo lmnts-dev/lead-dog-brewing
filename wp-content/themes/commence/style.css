@@ -1330,12 +1330,19 @@ section{
     height: 130px;
   }
 
+  .artist-single .artist-image{
+    width: 30px;
+    height: 30px;
+  }
+
   .artist-single .elementor-widget-heading{
     margin-bottom: 16px;
+    font-size: 18px;
   }
 
   .artist-single p {
     line-height: 1.15em!important;
+    font-size: 12px;
   }
 
   .artist-single--featured .content .elementor-widget-wrap:before {
