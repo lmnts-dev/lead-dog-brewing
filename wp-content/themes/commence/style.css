@@ -654,13 +654,13 @@ section{
   margin-left: 20px;
 }
 
-/* .frm_style_contact-page.with_frm_style .frm_icon_font.frm_plus_icon:before{
-  content: "\e62f Add";
+.frm_add_form_row:before{
+  content: "+";
 }
 
-.frm_style_contact-page.with_frm_style .frm_icon_font.frm_minus_icon:before{
-  content: "\e62f Remove";
-} */
+ .frm_remove_form_row:before{
+  content: "-";
+} 
 
 
 #contact-forms-container .frm_add_form_row, #contact-forms-container .frm_remove_form_row{
