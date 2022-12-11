@@ -197,6 +197,11 @@ section{
   top: 35%;
 }
 
+/*GALLERY*/
+.ug-item-wrapper img{
+  border: none!important;
+}
+
 /*BEER CAROUSEL*/
 #beer-carousel .fa-arrow-right:before{
   content: "";
