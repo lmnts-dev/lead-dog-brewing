@@ -1326,6 +1326,10 @@ section{
     background-color: transparent!important;
   }
 
+.artist-single .featured-img img{
+  height: 150px;
+}
+
    .artist-single--featured .content .elementor-widget-wrap:before {
     left: 40px;
   }
