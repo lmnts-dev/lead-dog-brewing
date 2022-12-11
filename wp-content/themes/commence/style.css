@@ -112,8 +112,8 @@ section{
   top: 60%;
 }
 
-.artist-title{
-  margin-bottom: 16px!important;
+#artist-title{
+  margin-bottom: 0!important;
 }
 
 .owl-next, .owl-prev{
@@ -1236,10 +1236,6 @@ section{
 
   #artist-slider .owl-dots{
     display: none;
-  }
-
-  #artist-title{
-    margin-bottom: 0!important;
   }
 
   .frm_form_title{
