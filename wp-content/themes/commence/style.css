@@ -640,12 +640,7 @@ section{
     display:none;
 }
 
-#loop-beer-title a:hover{
-  color:#DB4233!important;
-  text-decoration: underline;
-}
-
-.loop-single .elementor-widget-image:hover #loop-beer-title a{
+#loop-beer-title a:hover, .link{
   color:#DB4233!important;
   text-decoration: underline;
 }
