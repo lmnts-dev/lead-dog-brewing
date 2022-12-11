@@ -32,6 +32,10 @@ section{
   text-transform: capitalize;
 }
 
+.underline:hover{
+  text-decoration: underline;
+}
+
 .loop-single .elementor-widget-heading, .loop-single .elementor-widget-text-editor{
   margin-bottom: 5px;
 }
@@ -355,6 +359,10 @@ section{
 
 .tribe-events-calendar-list__event-venue-title::after{
   content: "·";
+}
+
+abbr[title]{
+  text-decoration: none!important;
 }
 
 .tribe-events-event-meta a, .tribe-events-event-meta a:visited{
