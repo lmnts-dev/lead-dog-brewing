@@ -655,11 +655,13 @@ section{
 }
 
 .frm_add_form_row:before{
-  content: "+";
+  content: "\e62f";
+  font-family: 's11-fp' !important;
 }
 
  .frm_remove_form_row:before{
-  content: "-";
+  content: "\e62e";
+  font-family: 's11-fp' !important;
 } 
 
 
