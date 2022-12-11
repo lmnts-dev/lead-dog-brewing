@@ -206,7 +206,7 @@ section{
 #beer-carousel .fa-arrow-right:before{
   content: "";
   position: absolute;
-  right: 0;
+  left: 0;
   top: 10px;
   height: 12px;
   width: 12px;
@@ -1433,7 +1433,7 @@ abbr[title]{
 
   .owl-prev, .owl-next{
     bottom: 0;
-    top: auto;
+    top: auto!important;
   }
 
   #ect-carousel-wrapper .slick-arrow.ctl-slick-prev {
