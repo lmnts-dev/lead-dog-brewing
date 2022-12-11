@@ -286,6 +286,8 @@ section{
   color: #021503;
   border-bottom: 1px solid #021503;
   padding-bottom: 10px;
+  font-family: 'roc-grotesk'!important;
+  font-weight: 500!important;
 }
 
 .author-ticket p{
