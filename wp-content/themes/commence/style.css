@@ -660,6 +660,11 @@ section{
 	margin-bottom: 50px;
 }
 
+.frm_description a:hover{
+  text-decoration: underline;
+  color:#DB4233;
+}
+
 .with_frm_style .frm-show-form div.frm_description p:first-child{
 	margin-bottom: 24px!important;
 }
@@ -1253,6 +1258,10 @@ section{
 
 @media (max-width: 768px){
   section{
+    padding: 35px 25px;
+  }
+
+  #tribe-events-pg-template{
     padding: 35px 25px;
   }
 
