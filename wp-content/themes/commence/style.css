@@ -1326,11 +1326,19 @@ section{
     background-color: transparent!important;
   }
 
-.artist-single .featured-img img{
-  height: 150px;
-}
+  .artist-single .featured-img img{
+    height: 130px;
+  }
 
-   .artist-single--featured .content .elementor-widget-wrap:before {
+  .artist-single .elementor-widget-heading{
+    margin-bottom: 16px;
+  }
+
+  .artist-single p {
+    line-height: 1.15em!important;
+  }
+
+  .artist-single--featured .content .elementor-widget-wrap:before {
     left: 40px;
   }
 
