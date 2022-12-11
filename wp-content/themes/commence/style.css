@@ -640,7 +640,7 @@ section{
     display:none;
 }
 
-#loop-beer-title a:hover, .link{
+.link a:hover, .link a:active, .link a:focus{
   color:#DB4233!important;
   text-decoration: underline;
 }
