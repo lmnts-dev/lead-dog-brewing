@@ -642,6 +642,12 @@ section{
 
 #loop-beer-title a:hover{
   color:#DB4233!important;
+  text-decoration: underline;
+}
+
+.loop-single .elementor-widget-image:hover #loop-beer-title a{
+  color:#DB4233!important;
+  text-decoration: underline;
 }
 
 /*FORMS*/
