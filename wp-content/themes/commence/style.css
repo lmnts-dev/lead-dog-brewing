@@ -40,6 +40,21 @@ section{
   pointer-events: none!important;
 }
 
+#btn--background{
+  background-image: linear-gradient(#F4EBDA,#F4EBDA);
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  will-change: background;
+  transition: background 0.25s ease 0s;
+  overflow: hidden;
+}
+
+#btn--background:hover{
+  outline: none;
+  background-size: 100% 100%;
+}
+
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
@@ -657,11 +672,13 @@ section{
 .frm_add_form_row:before{
   content: "\e62f";
   font-family: 's11-fp' !important;
+  margin-right: 5px;
 }
 
  .frm_remove_form_row:before{
   content: "\e62e";
   font-family: 's11-fp' !important;
+  margin-right: 5px;
 } 
 
 
