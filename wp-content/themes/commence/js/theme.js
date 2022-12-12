@@ -19,11 +19,14 @@ document.addEventListener("DOMContentLoaded", function() {
   //Beer Dropdown
 let beerLinks = document.querySelectorAll('.beer--mobile-link');
 let linksArray = Array.from(beerLinks);
-console.log(linksArray, 'beerlinks');
+
+function myFunction() {
+    console.log(beerLink, 'link here');
+}
+
 linksArray.map((link) => {
   console.log(link, 'link here');
-      link.addEventListener("click", myFunction);
+  link.addEventListener("click", () => { console.log(link, 'link here'); });
   })
-
 
 
