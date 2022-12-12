@@ -13,6 +13,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     });
   });
+  });
+  
+  //Beer Dropdown
+  let beerLink = document.querySelector('.beer--mobile-link');
+  console.log(beerLink, 'link here');
 });
-});
+
+
 

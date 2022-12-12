@@ -1527,6 +1527,14 @@ abbr[title]{
   .artist-single .featured-img img{
     width:100%;
   }
+
+  .beer-details{
+    display: none;
+  }
+
+  .beer-description{
+    display: none;
+  }
 }
 
 @media (max-width: 620px){
