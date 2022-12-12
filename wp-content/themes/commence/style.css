@@ -54,7 +54,17 @@ section{
   overflow: hidden;
 }
 
-#btn--background:hover{
+#btn--background--black{
+  background-image: linear-gradient(#112213,#112213);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  will-change: background;
+  transition: background 0.25s ease 0s;
+  overflow: hidden;
+}
+
+#btn--background:hover, .btn--background--black:hover{
   outline: none;
   background-size: 100% 100%;
 }
@@ -1154,6 +1164,11 @@ abbr[title]{
   position: absolute;
  }
 
+ /*FOOTER*/
+  .contact-info a:hover{
+    text-decoration: underline;
+    color: #CD753C;
+  }
 
  /*MEDIA QUERIES*/
 
@@ -1469,6 +1484,11 @@ abbr[title]{
 
   .age-gate__headline{
     font-size: 40px;
+  }
+
+  #upcoming-events-carousel .slick-arrow{
+    bottom: 0;
+    top: auto!important;
   }
 }
 
