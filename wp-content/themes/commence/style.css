@@ -732,10 +732,6 @@ abbr[title]{
   padding: 5px 20px!important;
 }
 
-*{
-	font-weight:500!important;
-}
-
 .frm_description{
 	margin-bottom: 50px;
 }
@@ -792,10 +788,6 @@ abbr[title]{
   display: none!important;
 }
 
-/*MERCH*/
-#uc_ue_buttons_post_filter_elementor13082{
-
-}
 
 /*UPCOMING EVENTS CAROUSEL*/
 #upcoming-events-carousel .ect-carousel-event-area{
@@ -1167,7 +1159,7 @@ abbr[title]{
  /*FOOTER*/
   .contact-info a:hover{
     text-decoration: underline;
-    color: #CD753C;
+    color: #CD753C!important;
   }
 
  /*MEDIA QUERIES*/
