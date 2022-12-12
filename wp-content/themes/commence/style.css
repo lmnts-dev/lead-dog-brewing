@@ -342,6 +342,10 @@ section{
 
 /*EVENTS*/
 
+.tribe-common-l-container *{
+  font-weight: 500!important;
+}
+
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector--tabs .tribe-events-c-view-selector__list-item--active .tribe-events-c-view-selector__list-item-link:after{
   bottom: 16px!important;
 }
@@ -1494,6 +1498,10 @@ abbr[title]{
   #upcoming-events-carousel #ect-carousel-wrapper .slick-arrow {
     top: auto!important;
     bottom: 0;
+  }
+
+  .artist-single .featured-img img{
+    width:100%;
   }
 }
 
