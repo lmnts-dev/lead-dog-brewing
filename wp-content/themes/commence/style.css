@@ -677,7 +677,7 @@ abbr[title]{
 }
 
 .tribe-events-event-url::after{
-  content: "Tickets";
+  content: "Info";
   display: block;
   position: absolute;
   width: 220px;
@@ -1093,25 +1093,27 @@ abbr[title]{
   position: absolute;
   right: 13%;
   bottom: 9%;
+  z-index: 10;
 }
 
 .age-gate__additional-information img:nth-of-type(2){
   position: absolute;
   bottom: 50px;
-  width: 5%;
+  width: 10%;
   right: 20%;
   bottom: 22%;
   transition: all .005s;
+  z-index: 1;
 }
 
 .age-gate__additional-information img:last-of-type{
-  position: absolute;
+  /* position: absolute;
   bottom: 55px;
   left: 0;
   width: 1074px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
 }
 
 /*PASSWORD PROTECT*/
