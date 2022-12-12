@@ -278,7 +278,7 @@ section{
 }
 
 #featured-artists .artist--first:hover .elementor-absolute .elementor-widget-container{
-    background-color: #DB4233;
+    background-color: #C35748;
 }
 
 .artist--second .elementor-absolute .elementor-widget-container{
@@ -307,7 +307,7 @@ section{
 
 .author-ticket a:hover{
   color: #F4EBDA;
-
+  border-color: #F4EBDA;
 }
 
 .author-ticket p{
