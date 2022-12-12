@@ -17,12 +17,11 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
   //Beer Dropdown
-  let beerLink = document.querySelectorAll('.beer--mobile-link');
-  beerLink.map((link) => {
+let beerLinks = document.querySelectorAll('.beer--mobile-link');
+  console.log()
+  beerLinks.map((link) => {
       link.addEventListener("click", myFunction);
   })
 
-function myFunction() {
-    console.log(beerLink, 'link here');
-}
+
 
