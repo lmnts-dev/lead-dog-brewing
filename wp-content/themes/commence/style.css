@@ -1095,13 +1095,13 @@ abbr[title]{
 }
 
 .age-gate__additional-information img:last-of-type{
-  /* position: absolute;
+  position: absolute;
   bottom: 55px;
   left: 0;
   width: 1074px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%); */
+  transform: translateX(-50%);
 }
 
 /*PASSWORD PROTECT*/
@@ -1160,6 +1160,14 @@ abbr[title]{
   .contact-info a:hover{
     text-decoration: underline;
     color: #CD753C!important;
+  }
+
+  .menu-icon--social{
+    float: left;
+  }
+
+  .menu-icon--social:nth-last-of-type() a{
+    padding-left: 5px!important;
   }
 
  /*MEDIA QUERIES*/
