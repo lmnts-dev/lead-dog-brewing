@@ -660,7 +660,7 @@ abbr[title]{
   position: relative;
 }
 
-.tribe-meta-value a{
+.tribe-events-event-url a{
   position: absolute;
   height: 100%;
   z-index: 100;
@@ -670,8 +670,8 @@ abbr[title]{
   width: 240px;
 }
 
-.tribe-meta-value::after{
-  content: "Eventbrite";
+.tribe-events-event-url::after{
+  content: "Tickets";
   display: block;
   position: absolute;
   width: 220px;
