@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   //Beer Dropdown
 let beerLinks = document.querySelectorAll('.beer--mobile-link');
-  console.log()
+console.log(beerLinks, 'beerlinks');
   beerLinks.map((link) => {
       link.addEventListener("click", myFunction);
   })
