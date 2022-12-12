@@ -1099,21 +1099,21 @@ abbr[title]{
 .age-gate__additional-information img:nth-of-type(2){
   position: absolute;
   bottom: 50px;
-  width: 10%;
-  right: 20%;
-  bottom: 22%;
+  width: 10.5%;
+  right: 16.75%;
+  bottom: 18%;
   transition: all .005s;
   z-index: 1;
 }
 
 .age-gate__additional-information img:last-of-type{
-  position: absolute;
+  /* position: absolute;
   bottom: 55px;
   left: 0;
   width: 1074px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
 }
 
 /*PASSWORD PROTECT*/
@@ -1196,7 +1196,8 @@ abbr[title]{
     }
 
     .age-gate__additional-information img:nth-of-type(2){
-      right: 17%;
+      right: 14%;
+      bottom: 17%;
     }
   }
 
@@ -1207,6 +1208,10 @@ abbr[title]{
     max-width: 50%!important;
     margin: 35px auto 0 auto;
     text-align: center;
+  }
+
+  .age-gate__additional-information img:nth-of-type(2) {
+    bottom: 16%;
   }
 }
 
@@ -1219,8 +1224,9 @@ abbr[title]{
     right: 2%;
   }
 
-  .age-gate__additional-information img:nth-of-type(2){
-    right: 9%;
+  .age-gate__additional-information img:nth-of-type(2) {
+    right: 6%;
+    bottom: 16%;
   }
 
   .age-gate__form{
@@ -1353,9 +1359,19 @@ abbr[title]{
   }
  }
 
+@media (max-width: 950px){
+  .age-gate__additional-information img:nth-of-type(2){
+    bottom: 15%;
+  }
+}
+
 @media (max-width: 768px){
   section{
     padding: 35px 25px;
+  }
+
+  .age-gate__additional-information img:nth-of-type(2){
+    bottom: 14%;
   }
 
   #tribe-events-pg-template{
@@ -1510,6 +1526,30 @@ abbr[title]{
 
   .artist-single .featured-img img{
     width:100%;
+  }
+}
+
+@media (max-width: 620px){
+  .age-gate__additional-information img:nth-of-type(2){
+    bottom: 13%;
+  }
+}
+
+@media (max-width: 520px){
+  .age-gate__additional-information img:nth-of-type(2){
+    bottom: 12%;
+  }
+}
+
+@media (max-width: 385px){
+  .age-gate__additional-information img:nth-of-type(2){
+    bottom: 11.5%;
+  }
+}
+
+@media (max-width: 320px){
+  .age-gate__additional-information img:nth-of-type(2){
+    bottom: 11%;
   }
 }
 
