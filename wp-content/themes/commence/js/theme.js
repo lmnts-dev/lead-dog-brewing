@@ -17,9 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
   //Beer Dropdown
-  let beerLink = document.querySelector('.beer--mobile-link');
-  beerLink.addEventListener("click", myFunction);
-  console.log(beerLink, 'link here');
+  let beerLink = document.querySelectorAll('.beer--mobile-link');
+  beerLink.map((link) => {
+      link.addEventListener("click", myFunction);
+  })
 
 function myFunction() {
     console.log(beerLink, 'link here');
