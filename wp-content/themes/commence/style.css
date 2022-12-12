@@ -484,6 +484,13 @@ abbr[title]{
   transform: translateX(-50%)
 }
 
+.event-frm_form_title{
+  font-size: 60px;
+  color: #F4EBDA;
+  margin-top: 10px;
+  margin-bottom:16px;
+}
+
 .single-event-carousel .ect-carousel{
   padding-bottom: 0!important;
 }
@@ -1263,6 +1270,10 @@ abbr[title]{
     top: 0!important;
   }
 
+  .event-frm_form_title{
+    font-size: 50px;
+  }
+
   #upcoming-events-carousel .ect-carousel-event-area{
     grid-template-columns: repeat(2,50%)!important;
   }
@@ -1528,12 +1539,8 @@ abbr[title]{
     width:100%;
   }
 
-  .beer-details{
-    display: none;
-  }
-
-  .beer-description{
-    display: none;
+  .event-frm_form_title{
+    font-size: 40px;
   }
 }
 
