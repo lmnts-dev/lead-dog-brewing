@@ -15,38 +15,6 @@ function  my_theme_enqueue_scripts() {
     array(), false, true);
 }
 
-function cliff_add_pro_addl_fields_to_inline_shortcode( $placeholders ) {
-	if (
-		method_exists( 'Tribe__Events__Pro__Single_Event_Meta', 'additional_fields' )
-		&& function_exists( 'cliff_render_pro_addl_fields_within_inline_shortcode' )
-	) {
-		$placeholders['{pro_addl_fields}'] = 'cliff_render_pro_addl_fields_within_inline_shortcode';
-	}
-
-	return $placeholders;
-}
-
-
-/**
- * Render an event's PRO Additional Fields template for a given Event ID, as part of the custom {pro_addl_fields}
- * variable for the tribe_event_inline shortcode.
- *
- * @see cliff_add_pro_addl_fields_to_inline_shortcode() This function must go hand-in-hand.
- * @see Tribe__Events__Pro__Single_Event_Meta::additional_fields() The functionality we are mimicking.
- * @see Tribe__Events__Pro__Shortcodes__Inline__Parser::process() This only works because `call_user_func()` passes its `$id` parameter.
- *
- * @param int $event_id
- */
-function cliff_render_pro_addl_fields_within_inline_shortcode( $event_id = 0 ) {
-	tribe_get_template_part(
-		'pro/modules/meta/additional-fields', null, [
-			'fields' => tribe_get_custom_fields( $event_id ),
-		]
-	);
-}
-
-add_filter( 'tribe_events_pro_inline_placeholders', 'cliff_add_pro_addl_fields_to_inline_shortcode' );
-
 
 // Register Custom Post Type Artist
 // Post Type Key: artist

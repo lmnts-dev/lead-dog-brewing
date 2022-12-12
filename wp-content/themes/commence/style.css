@@ -249,7 +249,7 @@ section{
 /*FEATURED ARTISTS SECTION*/
 
 #featured-artists:has(.artist--first:hover){
-  background-color: #DB4233;
+  background-color: #C35748;
 }
 
 #featured-artists:has(.artist--second:hover){
