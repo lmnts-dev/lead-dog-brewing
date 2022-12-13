@@ -73,6 +73,10 @@ section{
   background-color: #F9F5EF!important;
 }
 
+.frm_button_submit, .tribe-events-c-search__button{
+  letter-spacing: 0.05em!important;
+}
+
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
@@ -1412,6 +1416,14 @@ abbr[title]{
 
   #contact-info .elementor-container{
     flex-direction: column;
+  }
+
+  #beer-specs .elementor-element-87e7f73 .elementor-container{
+    flex-direction: column;
+  } 
+  
+  #beer-specs .elementor-element-87e7f73 .elementor-container{
+    width: 100%!important;
   }
 
   #contact-info .elementor-container .elementor-col-33{
