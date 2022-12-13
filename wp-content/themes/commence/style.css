@@ -225,11 +225,15 @@ section{
   z-index: 100;
   position: sticky;
   top:100px;
+  background-color: #F9F5EF;
+  display: flex;
+  justify-content: center;
 }
 
 #beer-tabs .eael-tabs-nav ul{
- width: 100%;
- display: inline-flex;
+  width: 100%;
+  display: inline-flex;
+  max-width: 800px;
 }
 
 /*BEER CAROUSEL*/
