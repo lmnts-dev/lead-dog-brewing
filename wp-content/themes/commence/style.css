@@ -69,6 +69,10 @@ section{
   background-size: 100% 100%;
 }
 
+.uc-grid-filter{
+  background-color: #F9F5EF!important;
+}
+
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
@@ -724,6 +728,7 @@ abbr[title]{
 /*FORMS*/
 .frm_form_title{
   line-height: 1.15em!important;
+  letter-spacing: -1.8px!important;
 }
 
 .frm_start_over{
@@ -1114,13 +1119,13 @@ abbr[title]{
 }
 
 .age-gate__additional-information img:last-of-type{
-  /* position: absolute;
+  position: absolute;
   bottom: 55px;
   left: 0;
   width: 1074px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%); */
+  transform: translateX(-50%);
 }
 
 /*PASSWORD PROTECT*/
