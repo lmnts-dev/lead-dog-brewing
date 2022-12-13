@@ -1439,7 +1439,6 @@ abbr[title]{
   }
 
   #beer-specs .elementor-element-87e7f73 .elementor-container .elementor-col-20:nth-child(3) .elementor-widget-container{
-    margin-top: 25px!important;
     margin-right: 0!important;
     text-align: center;
   }
@@ -1448,6 +1447,17 @@ abbr[title]{
     margin-top: 25px!important;
   }
 
+  #beer-specs .elementor-element-87e7f73 .elementor-container .elementor-col-20:nth-child(3) .elementor-widget-wrap{
+    margin-left: 0!important;
+  }
+
+  #beer-spects .elementor-element-87e7f73 .elementor-container .elementor-col-20:nth-child(4) .elementor-widget-wrap{
+    margin-left: 0!important;
+  }
+
+  #beer-spects .elementor-element-87e7f73 .elementor-container .elementor-col-20:nth-child(5) .elementor-widget-wrap{
+    margin-left: 0!important;
+  }
 
   #contact-info .elementor-container .elementor-col-33{
     width: 100%!important;
