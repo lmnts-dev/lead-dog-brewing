@@ -1430,6 +1430,14 @@ abbr[title]{
     border: none!important;
   }
 
+   #beer-specs .elementor-element-87e7f73 .elementor-container .elementor-col-20:nth-child(1) .elementor-widget-container{
+    margin-right: 0!important;
+  }
+
+  #beer-specs .elementor-element-87e7f73 .elementor-container .elementor-col-20:nth-child(2) .elementor-widget-container{
+    margin-right: 0!important;
+  }
+
   #beer-specs .elementor-element-87e7f73 .elementor-container .elementor-col-20:nth-child(3) .elementor-widget-container{
     margin-right: 0!important;
     text-align: center;
