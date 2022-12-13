@@ -220,6 +220,18 @@ section{
   border: none!important;
 }
 
+/*BEER TABS*/
+#beer-tabs .eael-tabs-nav{
+  z-index: 100;
+  position: sticky;
+  top:100px;
+}
+
+#beer-tabs .eael-tabs-nav ul{
+ width: 100%;
+ display: inline-flex;
+}
+
 /*BEER CAROUSEL*/
 #beer-carousel .fa-arrow-right:before{
   content: "";
