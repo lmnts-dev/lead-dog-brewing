@@ -1439,6 +1439,10 @@ abbr[title]{
     margin-left: 0!important;
   }
 
+  #beer-spects .elementor-widget-wrap{
+    margin-left: 0!important;
+  }
+
   #contact-info .elementor-container .elementor-col-33{
     width: 100%!important;
   }
