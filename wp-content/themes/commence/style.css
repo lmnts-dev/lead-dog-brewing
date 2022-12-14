@@ -118,6 +118,10 @@ section{
   position: relative;
 }
 
+.elementor-9 .elementor-element.elementor-element-a23afa1 .ue-carousel-ite{
+  border:none!important;
+}
+
 #beer-gallery .elementor-swiper-button-prev{
   bottom: 0px;
   top: 95%;
@@ -1425,8 +1429,9 @@ abbr[title]{
     flex-wrap: nowrap;
   }
 
-  #core-four{
+  #beer-tabs .eael-tab-inline-icon li{
     white-space: nowrap;
+    font-size: 18px;
   }
 
 
@@ -1637,6 +1642,12 @@ abbr[title]{
 @media (max-width: 620px){
   .age-gate__additional-information img:nth-of-type(2){
     bottom: 13%;
+  }
+}
+
+@media (max-width: 601px){
+  #beer-tabs .eael-tabs-nav {
+      top: 75px;
   }
 }
 
