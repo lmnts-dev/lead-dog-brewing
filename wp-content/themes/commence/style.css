@@ -508,6 +508,10 @@ abbr[title]{
   padding-bottom: 0!important;
 }
 
+.ue-carousel-item{
+  border: none!important;
+}
+
 .single-event-carousel h2{
   text-align: center;
   width: 100%;
