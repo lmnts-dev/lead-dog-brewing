@@ -1402,10 +1402,6 @@ abbr[title]{
     right: -28px!important;
     left: auto!important;
   }
-
-   #beer-tabs .eael-tabs-nav {
-      top: 125px;
-  }
  }
 
 @media (max-width: 950px){
