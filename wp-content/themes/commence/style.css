@@ -77,6 +77,14 @@ section{
   letter-spacing: 0.05em!important;
 }
 
+.cky-notice-btn-wrapper{
+  flex-wrap: nowrap;
+}
+
+.cky-notice-btn-wrapper button{
+  padding: 10px;
+}
+
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
@@ -375,6 +383,10 @@ section{
 }
 
 /*EVENTS*/
+
+.tribe-events-series-relationship-single-marker{
+  display: none!important;
+}
 
 .tribe-common-l-container *{
   font-weight: 500!important;
