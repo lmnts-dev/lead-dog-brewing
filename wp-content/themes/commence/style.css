@@ -64,7 +64,7 @@ section{
   overflow: hidden;
 }
 
-#btn--background:hover, .btn--background--black:hover{
+#btn--background:hover, #btn--background--black:hover{
   outline: none;
   background-size: 100% 100%;
 }
