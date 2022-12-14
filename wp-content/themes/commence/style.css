@@ -1158,7 +1158,7 @@ abbr[title]{
   position: absolute;
   bottom: 50px;
   width: 10.5%;
-  right: 16.75%;
+  right: 17%;
   bottom: 18%;
   transition: all .005s;
   z-index: 1;
@@ -1435,6 +1435,10 @@ abbr[title]{
 @media (max-width: 768px){
   section{
     padding: 35px 25px;
+  }
+
+  .beer-drawer{
+    display: none;
   }
 
   .age-gate__additional-information img:nth-of-type(2){
