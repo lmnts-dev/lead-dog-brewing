@@ -1437,10 +1437,6 @@ abbr[title]{
     padding: 35px 25px;
   }
 
-  .beer-drawer{
-    display: none;
-  }
-
   .age-gate__additional-information img:nth-of-type(2){
     bottom: 14%;
   }
