@@ -1649,12 +1649,6 @@ abbr[title]{
   }
 }
 
-@media (max-width: 601px){
-  #beer-tabs .eael-tabs-nav {
-      top: 125px;
-  }
-}
-
 @media (max-width: 520px){
   .age-gate__additional-information img:nth-of-type(2){
     bottom: 12%;
