@@ -368,6 +368,12 @@ section{
   border: none!important;
 }
 
+/*BEER GRID*/
+
+.beer-single .elementor-widget-container{
+  transition: none!important;
+}
+
 /*EVENTS*/
 
 .tribe-common-l-container *{
