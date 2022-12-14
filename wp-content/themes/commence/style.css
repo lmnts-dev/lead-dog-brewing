@@ -1275,7 +1275,7 @@ abbr[title]{
 
   /*BEER TABS*/
   #beer-tabs .eael-tabs-nav{
-    top:130px;
+    top:69px;
   }
 
   #upcoming-events .elementor-widget-heading{
@@ -1402,6 +1402,10 @@ abbr[title]{
     right: -28px!important;
     left: auto!important;
   }
+
+   #beer-tabs .eael-tabs-nav {
+      top: 125px;
+  }
  }
 
 @media (max-width: 950px){
@@ -1420,7 +1424,7 @@ abbr[title]{
   }
 
   #beer-tabs .eael-tabs-nav{
-  top: 125px;
+  top: 79px;
   }
 
   #beer-tabs .eael-tab-inline-icon{
