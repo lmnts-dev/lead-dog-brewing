@@ -1269,6 +1269,11 @@ abbr[title]{
     flex-direction: column;
   }
 
+  /*BEER TABS*/
+  #beer-tabs .eael-tabs-nav{
+    top:130px;
+  }
+
   #upcoming-events .elementor-widget-heading{
     position: relative!important;
   }
@@ -1409,6 +1414,21 @@ abbr[title]{
   .age-gate__additional-information img:nth-of-type(2){
     bottom: 14%;
   }
+
+  #beer-tabs .eael-tabs-nav{
+  top: 125px;
+  }
+
+  #beer-tabs .eael-tab-inline-icon{
+    overflow: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  #core-four{
+    white-space: nowrap;
+  }
+
 
   #tribe-events-pg-template{
     padding: 35px 25px;
