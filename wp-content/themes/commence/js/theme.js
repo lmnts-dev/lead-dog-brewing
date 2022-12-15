@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const eyes = document.querySelectorAll(".home .age-gate__additional-information p img:nth-child(2)");
     [].forEach.call(eyes, function (eye) {
       window.addEventListener('mousemove', (evt) => {
-        const x = -(window.innerWidth / 2 - evt.pageX) / 80;
-        const y = -(window.innerHeight / 2 - evt.pageY) / 80;
+        const x = -(window.innerWidth / 2 - evt.pageX) / 100;
+        const y = -(window.innerHeight / 2 - evt.pageY) / 60;
         eye.style.transform = `translateY(${y}%) translateX(${x}px)`;
 
       });
