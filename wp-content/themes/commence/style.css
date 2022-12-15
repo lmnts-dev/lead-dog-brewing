@@ -85,6 +85,10 @@ section{
   padding: 10px;
 }
 
+.distributor-access-heading{
+  line-height: 1.15em;
+}
+
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
@@ -1278,6 +1282,10 @@ abbr[title]{
     padding: 35px!important;
   }
 
+  .distributor-access-heading{
+    font-size: 50px;
+  }
+
   .age-gate__additional-information img:first-of-type{
     right: 2%;
   }
@@ -1293,6 +1301,10 @@ abbr[title]{
 
   .theplus-tabs-wrapper{
     flex-direction: column;
+  }
+
+  .ppw-ppf-input-container{
+    padding:100px;
   }
 
   /*BEER TABS*/
@@ -1441,6 +1453,10 @@ abbr[title]{
     bottom: 14%;
   }
 
+  .distributor-access-heading{
+    font-size: 40px;
+  }
+
   #beer-tabs .eael-tabs-nav{
   top: 79px;
   }
@@ -1449,6 +1465,10 @@ abbr[title]{
     overflow: scroll;
     display: flex;
     flex-wrap: nowrap;
+  }
+
+  .ppw-ppf-input-container{
+    padding:35px 25px;
   }
 
   #beer-tabs .eael-tab-inline-icon li{
