@@ -86,7 +86,7 @@ section{
 }
 
 .distributor-access-heading{
-  line-height: 1.15em;
+  line-height: 1.15em!important;
 }
 
 /*HOME SLIDER*/
@@ -1283,7 +1283,7 @@ abbr[title]{
   }
 
   .distributor-access-heading{
-    font-size: 50px;
+    font-size: 50px!important;
   }
 
   .age-gate__additional-information img:first-of-type{
@@ -1454,7 +1454,7 @@ abbr[title]{
   }
 
   .distributor-access-heading{
-    font-size: 40px;
+    font-size: 40px!important;
   }
 
   #beer-tabs .eael-tabs-nav{
