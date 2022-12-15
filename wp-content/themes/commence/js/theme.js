@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     [].forEach.call(eyes, function (eye) {
       window.addEventListener('mousemove', (evt) => {
         const x = -(window.innerWidth / 2 - evt.pageX) / 100;
-        const y = -(window.innerHeight / 2 - evt.pageY) / 60;
+        const y = -(window.innerHeight / 2 - evt.pageY) / 50;
         eye.style.transform = `translateY(${y}%) translateX(${x}px)`;
 
       });
