@@ -89,11 +89,6 @@ section{
   line-height: 1.15em!important;
 }
 
-/*ARTIST SLIDER*/
-.elementor-1142 .elementor-element.elementor-element-017875d > .elementor-element-populated{
-  padding: 78px 0 0 50px!important;
-}
-
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
@@ -1256,6 +1251,13 @@ abbr[title]{
     padding: 78px 50px 99px 50px!important;
   }
  }
+
+  @media (max-width: 1501px){
+  /*ARTIST SLIDER*/
+    .elementor-1142 .elementor-element.elementor-element-017875d > .elementor-element-populated{
+      padding: 78px 0 0 50px!important;
+    }
+  }
 
   @media (max-width: 1220px){
     .age-gate__additional-information img:first-of-type{
