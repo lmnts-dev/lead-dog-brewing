@@ -89,6 +89,11 @@ section{
   line-height: 1.15em!important;
 }
 
+/*ARTIST SLIDER*/
+.elementor-1142 .elementor-element.elementor-element-017875d > .elementor-element-populated{
+  padding: 78px 0 0 50px;
+}
+
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
@@ -1447,6 +1452,11 @@ abbr[title]{
 @media (max-width: 768px){
   section{
     padding: 35px 25px;
+  }
+
+  /*ARTIST SLIDER*/
+  .elementor-1142 .elementor-element.elementor-element-017875d > .elementor-element-populated{
+    padding: 78px 0 0 35px;
   }
 
   .age-gate__additional-information img:nth-of-type(2){
