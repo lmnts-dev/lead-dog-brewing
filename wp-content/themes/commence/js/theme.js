@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
 let beerLinks = document.querySelectorAll('.beer--mobile-link');
 let linksArray = Array.from(beerLinks);
 let beerDetails = document.querySelector('beer-details');
-console.log(beerDetails, 'deets');
 
 linksArray.map((link) => {
   console.log(link, 'link here');
