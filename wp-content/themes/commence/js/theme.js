@@ -17,9 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
   //Beer Dropdown
-let beerLinks = document.querySelectorAll('.beer--mobile-link');
+let beerLinks = document.querySelectorAll('.eael-tab-item-trigger');
 let linksArray = Array.from(beerLinks);
-let beerDetails = document.querySelector('beer-details');
 
 linksArray.map((link) => {
   console.log(link, 'link here');
