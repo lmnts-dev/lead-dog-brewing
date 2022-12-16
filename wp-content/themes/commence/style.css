@@ -1612,6 +1612,14 @@ abbr[title]{
     font-size: 12px;
   }
 
+  .cky-consent-container{
+    z-index: 10!important;
+  }
+
+  .age-gate__wrapper{
+    z-index: 1000!important;
+  }
+
   .artist-single--featured .content .elementor-widget-wrap:before {
     left: 40px;
   }
