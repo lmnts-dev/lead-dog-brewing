@@ -22,7 +22,7 @@ let linksArray = Array.from(beerLinks);
 
 linksArray.map((link) => {
   console.log(link, 'link here');
-  link.addEventListener("click", () => { console.log(link, 'link here'); });
+  link.addEventListener("click", () => { window.scrollTo(0, 0); });
   })
 
 
