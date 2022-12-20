@@ -77,10 +77,9 @@ if (isset($_ENV['PANTHEON_ENVIRONMENT'])) {
     define('FS_METHOD', 'direct');
 }
 
+define( 'WP_MEMORY_LIMIT', '1024M' );
 
 /* That's all, stop editing! Happy Pressing. */
-
-
 
 
 /** Absolute path to the WordPress directory. */
