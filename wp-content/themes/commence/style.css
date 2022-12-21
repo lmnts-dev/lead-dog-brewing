@@ -1496,6 +1496,11 @@ abbr[title]{
     font-size: 18px;
   }
 
+  /*PORTAL CONTENT */
+ #content-item .file-type{
+  width: 25%!important;
+ }
+
 
   #tribe-events-pg-template{
     padding: 35px 25px;
