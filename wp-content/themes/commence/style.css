@@ -89,6 +89,14 @@ section{
   line-height: 1.15em!important;
 }
 
+.cky-consent-container{
+  z-index: 10!important;
+}
+
+.age-gate__wrapper{
+  z-index: 1000!important;
+}
+
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
