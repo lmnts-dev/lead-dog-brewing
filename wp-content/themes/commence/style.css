@@ -1499,6 +1499,7 @@ abbr[title]{
   /*PORTAL CONTENT */
  #content-item .file-type{
   width: 25%!important;
+  text-align: center;
  }
 
 
