@@ -246,7 +246,7 @@ section{
 
 /*BEER TABS*/
 #beer-tabs .eael-tabs-nav{
-  z-index: 100;
+  z-index: 10;
   position: sticky;
   top:69px;
   background-color: #F9F5EF;
