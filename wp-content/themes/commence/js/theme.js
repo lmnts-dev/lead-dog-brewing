@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
  
 //FOR THE EYEBALL ANIMATION
   const container = document.querySelector(".age-gate__wrapper");
-  console.log(container, 'container here');
   container.addEventListener("mousemove", (e) => {
     const eyes = document.querySelectorAll(".age-gate__additional-information p img:nth-child(2)");
     [].forEach.call(eyes, function (eye) {
