@@ -150,6 +150,10 @@ section{
   left: auto!important;
 }
 
+.beer-image img{
+  max-height: 280px;
+}
+
 #beer-gallery .swiper-slide-image{
   max-height: 750px;
 }
