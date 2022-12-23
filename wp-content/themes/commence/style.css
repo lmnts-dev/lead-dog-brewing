@@ -150,6 +150,10 @@ section{
   left: auto!important;
 }
 
+#beer-gallery .swiper-slide-image{
+  max-height: 750px;
+}
+
 #beer-gallery .elementor-swiper-button-next{
     bottom: 0px;
     top: 95%;
