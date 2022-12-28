@@ -97,6 +97,10 @@ section{
   z-index: 1000!important;
 }
 
+.frm_message p{
+  color: #000!important;
+}
+
 /*HOME SLIDER*/
 
 #home-slider .swiper-pagination-bullets{
