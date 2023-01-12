@@ -629,10 +629,12 @@ abbr[title]{
 
 .tribe-events .tribe-events-c-nav__list-item--prev{
   justify-content: flex-end;
+  width: 45%!important;
 }
 
 .tribe-events .tribe-events-c-nav__list-item--next {
   justify-content: flex-start;
+    width: 45%!important;
 }
 
 #tribe-events-pg-template{
@@ -940,6 +942,10 @@ abbr[title]{
   grid-column: 1 / -1;
   width: auto;
   height: 429px;
+}
+
+#ect-carousel-wrapper .ect-carousel-image{
+  background: transparent!important;
 }
 
 #upcoming-events-carousel .ect-carousel-image a{
@@ -1371,6 +1377,7 @@ abbr[title]{
 
   #upcoming-events-carousel .ect-carousel-event-area{
     grid-template-columns: repeat(2,50%)!important;
+    margin: 0!important;
   }
 
   .ect-carousel-image{
