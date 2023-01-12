@@ -629,12 +629,12 @@ abbr[title]{
 
 .tribe-events .tribe-events-c-nav__list-item--prev{
   justify-content: flex-end;
-  width: 45%!important;
+  padding-right: 20px!important;
 }
 
 .tribe-events .tribe-events-c-nav__list-item--next {
   justify-content: flex-start;
-    width: 45%!important;
+  padding-left: 20px!important;
 }
 
 #tribe-events-pg-template{
