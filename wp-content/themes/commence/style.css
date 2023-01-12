@@ -544,6 +544,10 @@ abbr[title]{
   padding-bottom: 0!important;
 }
 
+.single-event-carousel .ect-carousel-image img {
+  width: auto!important;
+}
+
 .ue-carousel-item{
   border: none!important;
 }
@@ -1380,8 +1384,11 @@ abbr[title]{
   }
 
   .ect-carousel-image{
-    width: 300px!important;
     height: 300px!important;
+  }
+
+  .ect-carousel-image img{
+    object-fit: contain;
   }
 
   .author-ticket{
