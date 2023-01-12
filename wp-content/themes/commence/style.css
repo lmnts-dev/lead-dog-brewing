@@ -408,6 +408,14 @@ section{
 
 /*EVENTS*/
 
+#upcoming-events-carousel .ect-carousel-event-area{
+  margin: 0!important;
+}
+
+#upcoming-events-carousel .single-day{
+  padding: 0 15px;
+}
+
 .tribe-events-series-relationship-single-marker{
   display: none!important;
 }
