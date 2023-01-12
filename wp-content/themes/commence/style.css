@@ -408,14 +408,6 @@ section{
 
 /*EVENTS*/
 
-#upcoming-events-carousel .ect-carousel-event-area{
-  margin: 0!important;
-}
-
-#upcoming-events-carousel .single-day{
-  margin: 0 15px;
-}
-
 .tribe-events-series-relationship-single-marker{
   display: none!important;
 }
@@ -946,7 +938,7 @@ abbr[title]{
 #upcoming-events-carousel .ect-carousel-image{
   order: 1;
   grid-column: 1 / -1;
-  width: 419px;
+  width: auto;
   height: 429px;
 }
 
