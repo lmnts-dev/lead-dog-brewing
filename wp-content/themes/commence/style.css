@@ -1388,7 +1388,7 @@ abbr[title]{
   }
 
   .ect-carousel-image img{
-    object-fit: contain;
+    object-fit: contain!important;
   }
 
   .author-ticket{
